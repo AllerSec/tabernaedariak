@@ -214,7 +214,7 @@
       particleCanvas.style.height = particleH + 'px';
       particleCtx.setTransform(particleDpr, 0, 0, particleDpr, 0, 0);
 
-      var count = Math.min(90, Math.max(36, Math.floor((particleW * particleH) / 13500)));
+      var count = Math.min(22, Math.max(10, Math.floor((particleW * particleH) / 60000)));
       heroDots = [];
       for (var i = 0; i < count; i++) heroDots.push(makeHeroDot());
     }
@@ -239,47 +239,16 @@
 
     function drawHeroDot(dot) {
       var t = dot.life / dot.maxLife;
-      var alpha = Math.sin(t * Math.PI) * 0.78;
-      var glow = 0.35 + Math.sin(dot.pulse) * 0.14;
-      var r = dot.size * (0.9 + Math.sin(dot.pulse * 0.7) * 0.12);
-      var grad = particleCtx.createRadialGradient(dot.x, dot.y, 0, dot.x, dot.y, r * 4.2);
-
-      grad.addColorStop(0, heroDotColor(dot, alpha, glow));
-      grad.addColorStop(1, 'rgba(0,0,0,0)');
-
-      particleCtx.beginPath();
-      particleCtx.arc(dot.x, dot.y, r * 4.2, 0, Math.PI * 2);
-      particleCtx.fillStyle = grad;
-      particleCtx.fill();
-
+      var alpha = Math.sin(t * Math.PI) * 0.7;
+      var r = dot.size * (0.9 + Math.sin(dot.pulse * 0.7) * 0.1);
       particleCtx.beginPath();
       particleCtx.arc(dot.x, dot.y, r, 0, Math.PI * 2);
-      particleCtx.fillStyle = heroDotColor(dot, alpha, dot.tone === 'gold' ? 1 : 0.8);
+      particleCtx.fillStyle = heroDotColor(dot, alpha, 1);
       particleCtx.fill();
-    }
-
-    function drawHeroConnections() {
-      for (var i = 0; i < heroDots.length; i++) {
-        for (var j = i + 1; j < heroDots.length; j++) {
-          var dx = heroDots[i].x - heroDots[j].x;
-          var dy = heroDots[i].y - heroDots[j].y;
-          var dist = dx * dx + dy * dy;
-          if (dist < 14400) {
-            var alpha = (1 - Math.sqrt(dist) / 120) * 0.12;
-            particleCtx.beginPath();
-            particleCtx.moveTo(heroDots[i].x, heroDots[i].y);
-            particleCtx.lineTo(heroDots[j].x, heroDots[j].y);
-            particleCtx.strokeStyle = 'rgba(249,234,83,' + alpha + ')';
-            particleCtx.lineWidth = 0.5;
-            particleCtx.stroke();
-          }
-        }
-      }
     }
 
     function animateHeroParticles() {
       particleCtx.clearRect(0, 0, particleW, particleH);
-      drawHeroConnections();
       heroDots.forEach(function (dot) {
         updateHeroDot(dot);
         drawHeroDot(dot);
