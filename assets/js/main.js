@@ -86,8 +86,9 @@
   /* ---------- Reveals al hacer scroll ---------- */
   mm.add({ motion: '(prefers-reduced-motion: no-preference)' }, function () {
 
+    gsap.set('[data-reveal]', { autoAlpha: 0, y: 36 });
     ScrollTrigger.batch('[data-reveal]', {
-      start: 'top 88%',
+      start: 'top 92%',
       once: true,
       onEnter: function (els) {
         gsap.to(els, {
@@ -96,7 +97,6 @@
         });
       }
     });
-    gsap.set('[data-reveal]', { autoAlpha: 0, y: 36 });
     ScrollTrigger.refresh();
 
     /* Parallax suave en medios de hero interiores */
