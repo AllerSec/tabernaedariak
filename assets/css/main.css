@@ -625,7 +625,7 @@ h4 { font-family: var(--font-body); font-size: var(--text-base); font-weight: 70
   transition: background 0.25s;
 }
 .product-group summary::-webkit-details-marker { display: none; }
-.product-group summary:hover { background: var(--paper-warm); }
+.product-group summary:hover { background: rgba(0, 50, 109, 0.06); }
 .product-group summary .chev {
   flex: none;
   width: 34px; height: 34px;
