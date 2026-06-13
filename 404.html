@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#022350">
+  <title>Página no encontrada (404) | Manuel Taberna Edariak</title>
+  <meta name="robots" content="noindex, follow">
+  <style>
+    /* Autocontenida: el 404 de GitHub Pages se sirve en cualquier ruta */
+    @font-face {
+      font-family: 'Fraunces';
+      src: local('Georgia');
+    }
+    :root {
+      --navy: #00326D; --navy-deep: #022350; --yellow: #F9EA53; --white: #fff;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100svh;
+      display: grid;
+      place-items: center;
+      font-family: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(168deg, var(--navy-deep), var(--navy) 70%, #06408a);
+      color: var(--white);
+      text-align: center;
+      padding: 2rem 1.25rem;
+      overflow: hidden;
+    }
+    .wrap { display: grid; gap: 1.6rem; justify-items: center; max-width: 36rem; position: relative; z-index: 2; }
+    .code {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: clamp(6.5rem, 22vw, 13rem);
+      font-weight: 600;
+      line-height: 0.9;
+      letter-spacing: 0.02em;
+      display: flex;
+      align-items: center;
+      gap: 0.08em;
+    }
+    .code .dot {
+      width: 0.62em; height: 0.62em;
+      border-radius: 50%;
+      background: var(--yellow);
+      display: inline-block;
+      animation: bounce 1.6s cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0) scale(1, 1); }
+      35% { transform: translateY(-0.28em) scale(0.98, 1.02); }
+      50% { transform: translateY(0) scale(1.04, 0.94); }
+      65% { transform: translateY(-0.1em) scale(1, 1); }
+    }
+    h1 { font-family: Georgia, serif; font-weight: 560; font-size: clamp(1.5rem, 4vw, 2.2rem); }
+    p { color: rgba(255, 255, 255, 0.8); line-height: 1.65; font-size: 1.05rem; }
+    .actions { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5em;
+      min-height: 48px;
+      padding: 0.85em 1.7em;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: transform 0.25s, background 0.3s, color 0.3s;
+      cursor: pointer;
+    }
+    .btn:active { transform: scale(0.96); }
+    .btn-yellow { background: var(--yellow); color: #061a38; }
+    .btn-yellow:hover { background: var(--white); }
+    .btn-ghost { background: transparent; color: var(--white); border: 1.5px solid rgba(255,255,255,0.4); }
+    .btn-ghost:hover { background: var(--white); color: var(--navy); border-color: var(--white); }
+    .bubbles { position: fixed; inset: 0; pointer-events: none; z-index: 1; }
+    .bubbles i {
+      position: absolute;
+      bottom: -30px;
+      border-radius: 50%;
+      animation: rise linear infinite;
+      opacity: 0.2;
+    }
+    @keyframes rise { to { transform: translateY(-110vh); } }
+    @media (prefers-reduced-motion: reduce) {
+      .code .dot, .bubbles i { animation: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bubbles" aria-hidden="true">
+    <i style="left:8%;  width:14px; height:14px; background:#F9EA53; animation-duration:11s;"></i>
+    <i style="left:22%; width:8px;  height:8px;  background:#fff;    animation-duration:14s; animation-delay:2s;"></i>
+    <i style="left:38%; width:18px; height:18px; background:#7FA3D1; animation-duration:17s; animation-delay:1s;"></i>
+    <i style="left:55%; width:10px; height:10px; background:#F9EA53; animation-duration:12s; animation-delay:4s;"></i>
+    <i style="left:70%; width:15px; height:15px; background:#fff;    animation-duration:16s; animation-delay:3s;"></i>
+    <i style="left:86%; width:9px;  height:9px;  background:#F9EA53; animation-duration:13s; animation-delay:5s;"></i>
+  </div>
+
+  <main class="wrap">
+    <div class="code" aria-label="Error 404">4<span class="dot"></span>4</div>
+    <h1>Esta botella está vacía</h1>
+    <p>La página que buscas no existe o ha cambiado de sitio. Pero el almacén sigue lleno: vuelve al inicio o llámanos y te ayudamos con lo que necesites.</p>
+    <div class="actions">
+      <a class="btn btn-yellow" id="home-link" href="/">Volver al inicio</a>
+      <a class="btn btn-ghost" href="tel:+34948631027">948 631 027</a>
+    </div>
+  </main>
+
+  <script>
+    /* En GitHub Pages de proyecto, la home está en /<repo>/ */
+    (function () {
+      var seg = location.pathname.split('/').filter(Boolean);
+      var isProject = location.hostname.endsWith('.github.io') && seg.length > 0;
+      document.getElementById('home-link').href = isProject ? '/' + seg[0] + '/' : '/';
+    })();
+  </script>
+</body>
+</html>
