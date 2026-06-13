@@ -88,7 +88,7 @@
 
     gsap.set('[data-reveal]', { autoAlpha: 0, y: 36 });
     ScrollTrigger.batch('[data-reveal]', {
-      start: 'top 92%',
+      start: 'top 96%',
       once: true,
       onEnter: function (els) {
         gsap.to(els, {
