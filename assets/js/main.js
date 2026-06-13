@@ -97,7 +97,12 @@
         });
       }
     });
-    ScrollTrigger.refresh();
+    /* Recalcular tras load para que imágenes lazy no desplacen los triggers */
+    if (document.readyState === 'complete') {
+      ScrollTrigger.refresh();
+    } else {
+      window.addEventListener('load', function () { ScrollTrigger.refresh(); }, { once: true });
+    }
 
     /* Parallax suave en medios de hero interiores */
     document.querySelectorAll('.page-hero .hero-media').forEach(function (media) {
