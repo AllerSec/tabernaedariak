@@ -1,0 +1,115 @@
+    <section class="page-hero">
+      <div class="hero-media" aria-hidden="true">
+        <img src="/assets/images/stock/bera-navarra-2.webp" alt="" width="1600" height="900" fetchpriority="high">
+      </div>
+      <div class="hero-veil" aria-hidden="true"></div>
+      <div class="container" data-hero-stagger>
+        <nav class="breadcrumbs" aria-label="{{common.breadcrumbsLabel}}">
+          <a href="/{{lang}}/">{{nav.inicio}}</a><span class="sep" aria-hidden="true">/</span>
+          <span aria-current="page">{{contacto.h1}}</span>
+        </nav>
+        <h1>{{contacto.h1}} <span class="basque-note" style="color: var(--yellow); display:block; font-size: var(--text-lg);">{{contacto.eus}}</span></h1>
+        <p class="lead">{{contacto.heroLead}}</p>
+        <p class="basque-note" style="color: var(--yellow);">{{contacto.heroBasque}}</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{contacto.eyebrow}}</span>
+          <h2>{{contacto.title}}</h2>
+          <p class="lead">{{contacto.lead}}</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-cards">
+            <article class="contact-card" data-reveal>
+              <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+              <div><h3>{{contacto.labelPhone}}</h3><a href="tel:{{tel1}}">{{tel1Display}}</a></div>
+            </article>
+            <article class="contact-card" data-reveal>
+              <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg></span>
+              <div><h3>{{contacto.labelMessaging}}</h3><a href="tel:{{tel2}}">{{tel2Display}}</a></div>
+            </article>
+            <article class="contact-card" data-reveal>
+              <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg></span>
+              <div><h3>{{contacto.labelEmail}}</h3><a href="mailto:{{email}}">{{email}}</a></div>
+            </article>
+            <article class="contact-card" data-reveal>
+              <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+              <div><h3>{{contacto.labelAddress}}</h3><p>{{addressShort}},<br>{{postalCode}} {{locality}} ({{region}})</p></div>
+            </article>
+            <article class="contact-card" data-reveal>
+              <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span>
+              <div><h3>{{contacto.labelSchedule}}</h3><p>{{contacto.scheduleValue}}</p></div>
+            </article>
+            <article class="contact-card" data-reveal>
+              <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 9V3h12v6"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg></span>
+              <div><h3>{{contacto.labelFax}}</h3><p>{{fax}}</p></div>
+            </article>
+          </div>
+          <div class="map-frame" data-reveal>
+            <iframe title="{{contacto.mapTitle}}" src="https://www.google.com/maps?q=Bidasoa+Kalea+76,+31780+Bera,+Navarra&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="brand-strip" aria-label="{{home.brandsTitle}}">
+      <div class="container u-center" style="margin-bottom: var(--s3);">
+        <p class="eyebrow"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{home.brandsTitle}}</p>
+        <p class="basque-note">{{home.brandsBasque}}</p>
+      </div>
+      <div class="marquee">
+        <div class="marquee-track">
+          <img src="/assets/images/marcas/heineken.webp" alt="Heineken" loading="lazy" width="160" height="56">
+          <img src="/assets/images/marcas/schweppes.webp" alt="Schweppes" loading="lazy" width="160" height="56">
+          <img src="/assets/images/marcas/insalus.webp" alt="Insalus" loading="lazy" width="160" height="56">
+          <img src="/assets/images/marcas/lacturale.webp" alt="Lacturale" loading="lazy" width="160" height="56">
+          <img src="/assets/images/marcas/zapiain.webp" alt="Zapiain" loading="lazy" width="160" height="56">
+          <img src="/assets/images/marcas/codorniu.webp" alt="Codorníu" loading="lazy" width="160" height="56">
+          <img src="/assets/images/marcas/pago.webp" alt="Pago" loading="lazy" width="160" height="56">
+          <img src="/assets/images/marcas/ur-daira.webp" alt="Ur Daira" loading="lazy" width="160" height="56">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--paper section--tight">
+      <div class="container">
+        <div class="section-head section-head--row" data-reveal>
+          <div>
+            <span class="eyebrow"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{contacto.meanwhileEyebrow}}</span>
+            <h2>{{contacto.meanwhileTitle}}</h2>
+          </div>
+          <a class="btn btn--ghost" href="/{{lang}}/catalogo/">
+            <span>{{common.todoCatalogo}}</span>
+            <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+        <div class="grid grid--3">
+{{relatedCards}}
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-banner" data-reveal>
+          <svg class="cta-dots" viewBox="0 0 300 200" aria-hidden="true">
+            <circle cx="50" cy="50" r="28" fill="#F9EA53" opacity="0.9"/>
+            <circle cx="150" cy="50" r="28" fill="#FFFFFF" opacity="0.25"/>
+            <circle cx="250" cy="50" r="28" fill="#F9EA53" opacity="0.5"/>
+            <circle cx="50" cy="150" r="28" fill="#FFFFFF" opacity="0.2"/>
+            <circle cx="150" cy="150" r="28" fill="#F9EA53" opacity="0.7"/>
+            <circle cx="250" cy="150" r="28" fill="#FFFFFF" opacity="0.3"/>
+          </svg>
+          <span class="eyebrow eyebrow--light"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{contacto.ctaEyebrow}}</span>
+          <h2>{{contacto.ctaTitle}}</h2>
+          <p class="lead">{{contacto.ctaLead}}</p>
+          <div class="hero-ctas">
+            <a class="btn btn--yellow" href="tel:{{tel1}}"><span>{{tel1Display}}</span></a>
+            <a class="btn btn--light-ghost" href="tel:{{tel2}}"><span>{{tel2Display}}</span></a>
+          </div>
+        </div>
+      </div>
+    </section>

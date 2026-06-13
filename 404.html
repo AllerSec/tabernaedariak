@@ -98,20 +98,34 @@
 
   <main class="wrap">
     <div class="code" aria-label="Error 404">4<span class="dot"></span>4</div>
-    <h1>Esta botella está vacía</h1>
-    <p>La página que buscas no existe o ha cambiado de sitio. Pero el almacén sigue lleno: vuelve al inicio o llámanos y te ayudamos con lo que necesites.</p>
+    <h1 id="t-title">Esta botella está vacía</h1>
+    <p id="t-text">La página que buscas no existe o ha cambiado de sitio. Pero el almacén sigue lleno: vuelve al inicio o llámanos y te ayudamos con lo que necesites.</p>
     <div class="actions">
-      <a class="btn btn-yellow" id="home-link" href="/">Volver al inicio</a>
+      <a class="btn btn-yellow" id="home-link" href="/eu/">Volver al inicio</a>
       <a class="btn btn-ghost" href="tel:+34948631027">948 631 027</a>
     </div>
   </main>
 
   <script>
-    /* En GitHub Pages de proyecto, la home está en /<repo>/ */
+    /* Sitio multiidioma: detecta el idioma (de la URL o del navegador) y
+       adapta textos y el enlace de inicio al prefijo correspondiente. */
     (function () {
+      var STR = {
+        eu: { title: 'Botila hau hutsik dago', text: 'Bilatzen ari zaren orria ez da existitzen edo lekuz aldatu da. Baina biltegia beteta dago: itzuli hasierara edo deitu eta behar duzunarekin lagunduko dizugu.', home: 'Itzuli hasierara' },
+        es: { title: 'Esta botella está vacía', text: 'La página que buscas no existe o ha cambiado de sitio. Pero el almacén sigue lleno: vuelve al inicio o llámanos y te ayudamos con lo que necesites.', home: 'Volver al inicio' },
+        en: { title: 'This bottle is empty', text: "The page you're looking for doesn't exist or has moved. But the warehouse is still full: go back home or call us and we'll help you with whatever you need.", home: 'Back to home' },
+        fr: { title: 'Cette bouteille est vide', text: "La page que vous cherchez n'existe pas ou a changé d'emplacement. Mais l'entrepôt est toujours plein : revenez à l'accueil ou appelez-nous et nous vous aiderons.", home: "Retour à l'accueil" }
+      };
       var seg = location.pathname.split('/').filter(Boolean);
-      var isProject = location.hostname.endsWith('.github.io') && seg.length > 0;
-      document.getElementById('home-link').href = isProject ? '/' + seg[0] + '/' : '/';
+      var lang = (seg[0] && STR[seg[0]]) ? seg[0]
+        : (navigator.language || 'eu').slice(0, 2).toLowerCase();
+      if (!STR[lang]) lang = 'eu';
+      document.documentElement.lang = lang;
+      document.getElementById('t-title').textContent = STR[lang].title;
+      document.getElementById('t-text').textContent = STR[lang].text;
+      var link = document.getElementById('home-link');
+      link.textContent = STR[lang].home;
+      link.href = '/' + lang + '/';
     })();
   </script>
 </body>

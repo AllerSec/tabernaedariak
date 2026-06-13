@@ -1,0 +1,53 @@
+    <section class="page-hero">
+      <div class="hero-media" aria-hidden="true">
+        <img src="/assets/images/stock/vinedo-rioja-1.webp" alt="" width="1600" height="900" fetchpriority="high">
+      </div>
+      <div class="hero-veil" aria-hidden="true"></div>
+      <div class="container" data-hero-stagger>
+        <nav class="breadcrumbs" aria-label="{{common.breadcrumbsLabel}}">
+          <a href="/{{lang}}/">{{nav.inicio}}</a><span class="sep" aria-hidden="true">/</span>
+          <span aria-current="page">{{catIndex.h1}}</span>
+        </nav>
+        <h1>{{catIndex.h1}} <span class="basque-note" style="color: var(--yellow); display:block; font-size: var(--text-lg);">{{catIndex.eus}}</span></h1>
+        <p class="lead">{{catIndex.heroLead}}</p>
+      </div>
+    </section>
+
+    <section class="section" id="familias">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{catIndex.eyebrow}}</span>
+          <h2>{{catIndex.title}}</h2>
+          <p class="lead">{{catIndex.lead}}</p>
+        </div>
+
+        <div class="grid grid--3">
+{{catCards}}
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-banner" data-reveal>
+          <svg class="cta-dots" viewBox="0 0 300 200" aria-hidden="true">
+            <circle cx="50" cy="50" r="28" fill="#F9EA53" opacity="0.9"/>
+            <circle cx="150" cy="50" r="28" fill="#FFFFFF" opacity="0.25"/>
+            <circle cx="250" cy="50" r="28" fill="#F9EA53" opacity="0.5"/>
+            <circle cx="50" cy="150" r="28" fill="#FFFFFF" opacity="0.2"/>
+            <circle cx="150" cy="150" r="28" fill="#F9EA53" opacity="0.7"/>
+            <circle cx="250" cy="150" r="28" fill="#FFFFFF" opacity="0.3"/>
+          </svg>
+          <span class="eyebrow eyebrow--light"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{catIndex.ctaEyebrow}}</span>
+          <h2>{{catIndex.ctaTitle}}</h2>
+          <p class="lead">{{catIndex.ctaLead}}</p>
+          <div class="hero-ctas">
+            <a class="btn btn--yellow" href="tel:{{tel1}}"><span>{{tel1Display}}</span></a>
+            <a class="btn btn--light-ghost" href="/{{lang}}/contacto/">
+              <span>{{common.paginaContacto}}</span>
+              <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>

@@ -1,128 +1,903 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tabernaedariak.eus/</loc>
+    <loc>https://tabernaedariak.eus/eu/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/vinos/</loc>
+    <loc>https://tabernaedariak.eus/eu/empresa/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/empresa/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/cervezas/</loc>
+    <loc>https://tabernaedariak.eus/eu/contacto/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/contacto/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/whiskies/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/vinos/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/vinos/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/licores/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/cervezas/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cervezas/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/ginebra-vodka-ron-tequila/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/whiskies/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/whiskies/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/anis-brandy-pacharan/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/licores/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/licores/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/refrescos/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/ginebra-vodka-ron-tequila/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/ginebra-vodka-ron-tequila/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/cavas/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/anis-brandy-pacharan/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/anis-brandy-pacharan/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/sidra-txakoli/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/refrescos/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/refrescos/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/aperitivos/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/cavas/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cavas/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/cafes/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/sidra-txakoli/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/sidra-txakoli/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/leche/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/aperitivos/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/aperitivos/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/aguas/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/cafes/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cafes/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/cristaleria/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/leche/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/leche/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/aceite/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/aguas/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/aguas/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/conservas/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/cristaleria/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cristaleria/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/zumos-jarabes/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/aceite/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/aceite/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/catalogo/miniaturas/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/conservas/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/conservas/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/empresa/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/zumos-jarabes/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/zumos-jarabes/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/contacto/</loc>
+    <loc>https://tabernaedariak.eus/eu/catalogo/miniaturas/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/miniaturas/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/aviso-legal/</loc>
+    <loc>https://tabernaedariak.eus/eu/aviso-legal/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/aviso-legal/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/politica-privacidad/</loc>
+    <loc>https://tabernaedariak.eus/eu/politica-privacidad/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/politica-privacidad/"/>
   </url>
   <url>
-    <loc>https://tabernaedariak.eus/politica-cookies/</loc>
+    <loc>https://tabernaedariak.eus/eu/politica-cookies/</loc>
     <lastmod>2026-06-13</lastmod>
-    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/politica-cookies/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/empresa/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/empresa/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/contacto/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/contacto/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/vinos/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/vinos/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/cervezas/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cervezas/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/whiskies/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/whiskies/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/licores/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/licores/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/ginebra-vodka-ron-tequila/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/ginebra-vodka-ron-tequila/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/anis-brandy-pacharan/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/anis-brandy-pacharan/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/refrescos/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/refrescos/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/cavas/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cavas/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/sidra-txakoli/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/sidra-txakoli/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/aperitivos/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/aperitivos/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/cafes/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cafes/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/leche/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/leche/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/aguas/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/aguas/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/cristaleria/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cristaleria/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/aceite/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/aceite/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/conservas/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/conservas/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/zumos-jarabes/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/zumos-jarabes/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/catalogo/miniaturas/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/miniaturas/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/aviso-legal/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/aviso-legal/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/politica-privacidad/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/politica-privacidad/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/es/politica-cookies/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/politica-cookies/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/empresa/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/empresa/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/contacto/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/contacto/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/vinos/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/vinos/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/cervezas/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cervezas/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/whiskies/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/whiskies/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/licores/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/licores/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/ginebra-vodka-ron-tequila/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/ginebra-vodka-ron-tequila/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/anis-brandy-pacharan/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/anis-brandy-pacharan/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/refrescos/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/refrescos/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/cavas/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cavas/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/sidra-txakoli/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/sidra-txakoli/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/aperitivos/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/aperitivos/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/cafes/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cafes/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/leche/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/leche/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/aguas/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/aguas/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/cristaleria/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cristaleria/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/aceite/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/aceite/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/conservas/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/conservas/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/zumos-jarabes/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/zumos-jarabes/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/catalogo/miniaturas/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/miniaturas/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/aviso-legal/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/aviso-legal/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/politica-privacidad/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/politica-privacidad/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/en/politica-cookies/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/politica-cookies/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/empresa/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/empresa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/empresa/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/contacto/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/contacto/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/vinos/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/vinos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/vinos/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/cervezas/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cervezas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cervezas/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/whiskies/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/whiskies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/whiskies/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/licores/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/licores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/licores/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/ginebra-vodka-ron-tequila/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/ginebra-vodka-ron-tequila/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/ginebra-vodka-ron-tequila/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/anis-brandy-pacharan/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/anis-brandy-pacharan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/anis-brandy-pacharan/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/refrescos/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/refrescos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/refrescos/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/cavas/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cavas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cavas/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/sidra-txakoli/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/sidra-txakoli/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/sidra-txakoli/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/aperitivos/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/aperitivos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/aperitivos/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/cafes/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cafes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cafes/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/leche/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/leche/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/leche/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/aguas/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/aguas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/aguas/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/cristaleria/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/cristaleria/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/cristaleria/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/aceite/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/aceite/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/aceite/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/conservas/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/conservas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/conservas/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/zumos-jarabes/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/zumos-jarabes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/zumos-jarabes/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/catalogo/miniaturas/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/catalogo/miniaturas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/catalogo/miniaturas/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/aviso-legal/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/aviso-legal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/aviso-legal/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/politica-privacidad/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/politica-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/politica-privacidad/"/>
+  </url>
+  <url>
+    <loc>https://tabernaedariak.eus/fr/politica-cookies/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://tabernaedariak.eus/eu/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tabernaedariak.eus/es/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tabernaedariak.eus/en/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://tabernaedariak.eus/fr/politica-cookies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tabernaedariak.eus/eu/politica-cookies/"/>
   </url>
 </urlset>

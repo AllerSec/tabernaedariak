@@ -1,0 +1,2381 @@
+{
+  "categorias": [
+    {
+      "slug": "vinos",
+      "h1": "Vinos",
+      "eus": "Ardoak",
+      "heroLead": "De la casa de todos los días al reserva de las celebraciones: vinos de Navarra y Rioja seleccionados para la hostelería, con reparto semanal a tu local.",
+      "introH2": "El vino que tu carta merece",
+      "introLead": "Trabajamos las bodegas que funcionan en barra y en mesa: garnachas y tempranillos navarros, crianzas y reservas riojanos, blancos frescos y rosados de Navarra. Y para el verano, sangría lista para servir.",
+      "introImg": {
+        "src": "/assets/images/stock/copa-vino-tinto-1.webp",
+        "alt": "Vino tinto sirviéndose en copa"
+      },
+      "listTitle": "Catálogo de vinos",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Vinos de mesa",
+          "eus": "Ardo arruntak",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "RIOTINTO BELTZA ROSCA 3/4",
+                "RIOROSO GORRIA ROSCA 3/4",
+                "RIOBLANCO XURIA ROSCA 3/4",
+                "VIÑA ALTA BELTZA 3/4 RET",
+                "MOSTO VIDA LT. N.R.",
+                "MOSTO VIDA BLLIN 200",
+                "VIÑACRUZ BELTZA LT N.R",
+                "TABERNA BELTZA LT. NR",
+                "TABERNA GORRIA LT. NR",
+                "IBERO XURIA Lt N.R."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vinos de Navarra",
+          "eus": "Nafarroako ardoak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "h4",
+              "es": "Del año",
+              "eus": "Urtekoak"
+            },
+            {
+              "type": "list",
+              "items": [
+                "VIÑA CAMPUS",
+                "ALAIZ BELTZA",
+                "SEÑORIO IRATI BELTZA",
+                "CASTILLO OLITE BELTZA",
+                "CAMPANAS TEMPRANILLO",
+                "EGIARTE",
+                "HOMENAJE BELTZA"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Roble",
+              "eus": ""
+            },
+            {
+              "type": "list",
+              "items": [
+                "VIÑA PERGUITA",
+                "INURRIETA NORTE",
+                "INURRIETA SUR",
+                "MARCO REAL SYRAH"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Rosado",
+              "eus": "Gorria"
+            },
+            {
+              "type": "list",
+              "items": [
+                "VIÑA CAMPUS GORRIA",
+                "ALAIZ GORRIA",
+                "SEÑORIO IRATI GORRIA",
+                "CASTILLO OLITE GORRIA",
+                "NAVASCAL GORRIA",
+                "CAMPANAS GORRIA",
+                "SARRIA GORRIA",
+                "HOMENAJE GORRIA",
+                "GRAN FEUDO GORRIA",
+                "INURRIETA GORRI MEDIODIA"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Blanco",
+              "eus": "Xuria"
+            },
+            {
+              "type": "list",
+              "items": [
+                "ALAIZ XURIA",
+                "SEÑORIO DE IRATI XURIA",
+                "CASTILLO DE OLITE XURIA",
+                "HOMENAJE XURIA 3/4",
+                "CAMPANAS XURIA",
+                "MORALEDA XURIA",
+                "CHARDONNAY",
+                "INURRIETA XURI ORCHIDEA",
+                "MARCO REAL CHARDONNAY",
+                "INURRIETA XURI CUVEE"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Crianza",
+              "eus": "Ondua"
+            },
+            {
+              "type": "list",
+              "items": [
+                "VIÑA RECUERDO CR",
+                "NAVASCAL CR",
+                "MORALEDA CR",
+                "CAMPANAS BELTZA CR",
+                "SARRIA BELTZA CR",
+                "MARCO REAL CR",
+                "AROA JAUNA CR",
+                "EGIARTE CR",
+                "CASTILLO DE OLITE 1864 CR",
+                "INURRIETA CR",
+                "CUATROCIENTOS",
+                "PAGO CIRSUS V.",
+                "SELECCIONADA",
+                "LEZAUN CR"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Reserva",
+              "eus": "Erreserba"
+            },
+            {
+              "type": "list",
+              "items": [
+                "CAMPANAS RE",
+                "MARCO REAL RE FAMILIA",
+                "ALTOS DE INURRIETA RE",
+                "INURRIETA LADERAS",
+                "SEÑORIO SARRIA GR"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vinos de Rioja",
+          "eus": "Errioxako ardoak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "h4",
+              "es": "Tinto",
+              "eus": "Beltza"
+            },
+            {
+              "type": "list",
+              "items": [
+                "SEÑORIO UÑUELA",
+                "HEREDERO",
+                "MONTEBUENA",
+                "MARQUES CACERES BIO"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "CVC",
+              "eus": ""
+            },
+            {
+              "type": "list",
+              "items": [
+                "CAMPO VIEJO",
+                "SIGLO 1881",
+                "SIGLO",
+                "SIGLO SACO"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Rosado",
+              "eus": "Gorria"
+            },
+            {
+              "type": "list",
+              "items": [
+                "MARQUES CACERES GORRIA",
+                "BERONIA GORRIA",
+                "AZPILICUETA GORRIA"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Crianza",
+              "eus": "Ondua"
+            },
+            {
+              "type": "list",
+              "items": [
+                "VIÑA EDERRA CR",
+                "CAMPO VIEJO CR",
+                "VIÑA ALCORTA CR",
+                "MONTECILLO CR",
+                "COTO CR",
+                "HACIENDA LOPEZ DE HARO CR",
+                "BERONIA CR",
+                "VIÑA POMAL CENTENARIO CR",
+                "CUNE CR",
+                "AZPILICUETA CR",
+                "CONDE DE VALDEMAR CR",
+                "VIÑA SALCEDA CR",
+                "BERONIA CR EDICION LIM.",
+                "MARQUES CACERES CR",
+                "LAN CR",
+                "RAMON BILBAO CR",
+                "MARQUES VILLAMAGNA CR",
+                "AZPILICUETA ORIGEN CR",
+                "OINOZ CR",
+                "MUGA CRIANZA",
+                "VIÑA ALCORTA CR MAGNUM 1500",
+                "COTO CR MAGNUM 1500",
+                "BERONIA CR MAGNUM 1500",
+                "AZPILICUETA CR MAGNUM 1500",
+                "RAMON BILBAO CR MAGNUM1500"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Reserva",
+              "eus": "Erreserbak"
+            },
+            {
+              "type": "list",
+              "items": [
+                "VIÑA ALCORTA RE",
+                "CAMPO VIEJO RE",
+                "COTO DE IMAZ RE",
+                "AZPILICUETA RE",
+                "MARQUES CACERES RE",
+                "BERONIA RESERVA",
+                "VIÑA POMAL RE",
+                "MARQUES VILLAMAGNA RE",
+                "EGOMEI RE",
+                "MARQUES RISCAL RE",
+                "FELIX AZPILICUETA C.PRIVADA",
+                "YSUIS RE",
+                "GAUDIUM RESERBA",
+                "EGOMEI ALMA"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Gran reserva",
+              "eus": "Erreserba haundiak"
+            },
+            {
+              "type": "list",
+              "items": [
+                "MARQUES VILLAMAGNA GR",
+                "BERONIA GR",
+                "MARQUES CACERES GR",
+                "LA VICALANDA GR"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Botellas 3/8 y 50 cl",
+          "eus": "Ardo botila erdiak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "CAMPO VIEJO BELTZA 3/8",
+                "VIÑA ALCORTA CR 3/8",
+                "AZPILICUETA CR 3/8",
+                "COTO CR 3/8",
+                "BERONIA CR 3/8",
+                "CUNE CR 3/8",
+                "MARQUES CACERES CR 3/8",
+                "VIÑA ALCORTA CR 50cl",
+                "VIÑA POMAL CR 50cl",
+                "VIÑA POMAL RE 50cl",
+                "MARQUES CACERES 3/8 GORRIA",
+                "ARDO BOTILA ERDIAK 3/8 KOAK"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sangrías",
+          "eus": "Sangriak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "REAL SANGRIA LITRO 7,5º",
+                "SANGRIA MAISON 1.5",
+                "REAL SANGRIA 1.5 L.7,5º",
+                "REAL SANGRIA 3LT BAG IN BOX",
+                "LOLEA SANGRIA GORRIA 75cl",
+                "LOLEA SANGRIA XURIA 75cl"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Una bodega concreta para tu carta? ¿Un formato especial para un evento? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/stock/bodega-barricas-2.webp",
+        "alt": "Barricas de roble en bodega de crianza"
+      },
+      "related": [
+        "cavas",
+        "sidra-txakoli",
+        "aperitivos"
+      ],
+      "seo": {
+        "title": "Vinos para Hostelería en Navarra — Rioja, Navarra y Sangrías | Manuel Taberna Edariak",
+        "desc": "Distribución de vinos para bares y restaurantes en Bera, Navarra: vinos de Navarra y Rioja, crianzas, reservas, botellas 3/8 y sangrías. Reparto semanal en Bortziriak, Malerreka y Baztán.",
+        "keywords": "vinos hostelería Navarra, distribuidor vino Rioja, vino crianza reserva bares, mayorista vinos Bera, sangría hostelería",
+        "ogTitle": "Vinos para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Vinos de Navarra y Rioja, crianzas, reservas y sangrías. Reparto semanal a bares y restaurantes.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/vinos.webp"
+      }
+    },
+    {
+      "slug": "cervezas",
+      "h1": "Cervezas",
+      "eus": "Garagardoa",
+      "heroLead": "Del barril de Amstel que no puede faltar en tu grifo a la belga de abadía que distingue tu carta: cerveza para bares, restaurantes y tiendas, con reparto semanal a tu local.",
+      "introH2": "La caña que llena tu barra",
+      "introLead": "Barriles de 20, 30 y 50 litros, retornables para el día a día y una selección de importación con Guinness, Paulaner, Chimay o Delirium. Todo lo que necesita tu grifo y tu nevera, servido cada semana sin que te falte género.",
+      "introImg": {
+        "src": "/assets/images/stock/cerveza-cana-1.webp",
+        "alt": "Caña de cerveza alta y dorada servida en una terraza"
+      },
+      "listTitle": "Catálogo de cervezas",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Retornables",
+          "eus": "Bueltatzekoa",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "AMSTEL 200 RET",
+                "AMSTEL RADLER 200 RET",
+                "BUCKLER 200 RET",
+                "HEINEKEN 250 RET",
+                "LADRON DE MANZANAS CIDER 200RET",
+                "AMSTEL 330 RET",
+                "HEINEKEN 330 RET",
+                "AMSTEL ORO 330 RET",
+                "AMSTEL RADLER 330 RET",
+                "CRUZ CAMPO CRUZIAL 330 RET",
+                "CRUZ CAMPO ESPECIAL 330 RET",
+                "CRUZCAMPO SIN GLUTEN 330 RET"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Barriles",
+          "eus": "Barrikak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "HEINEKEN 5 BARRIL",
+                "AMSTEL ESPECIAL 20LT DAVID",
+                "DESPERADOS 20LT",
+                "BUCKLER 20LT",
+                "AMSTEL ESPECIAL 30LT",
+                "AMSTEL ORO 30LT",
+                "AMSTEL 1870 30LT",
+                "HEINEKEN 30 LT",
+                "AMSTEL RADLER 30LT",
+                "GUINNESS BARRIL 30",
+                "CRUZCAMPO 50LT",
+                "AMSTEL ESPECIAL 50LT",
+                "AMSTEL 1870 50LT"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "No retornables",
+          "eus": "Botatzekoak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "AMSTEL 250 PACK6",
+                "HEINEKEN 250 PACK6",
+                "SHANDY 250 PACK6",
+                "BUCKLER 250 PACK6",
+                "HEINEKEN 0,0% 250 PACK6",
+                "AMSTEL 330 LATA",
+                "HEINEKEN 330 LATA",
+                "GUINNESS 440 LATA",
+                "GUINNESS 52CL LATA SURGER",
+                "SOL 330NR PACK4",
+                "HEINEKEN 330 NR",
+                "CRUZCAMPO G.R.330 NR",
+                "GUINNESS 330 NR",
+                "DESPERADOS 330 PACK 6",
+                "DESPERADOS MOJITO 330 PACK 6",
+                "JUDAS 330 NR",
+                "MORT SUBITE XTREME 330 NR",
+                "PAULANER DUNKEL 500NR",
+                "PAULANER TRIGO 500 NR",
+                "PAULANER SALVATOR 330NR",
+                "AFFLIGEM BLOND 330NR",
+                "KROMBACHER SIN 330NR",
+                "DESPERADOS 650cl",
+                "CORONITA 330NR",
+                "TRAPPE RUBIA 330 NR",
+                "HOEGARDEN XURIA 330NR",
+                "LEFFE BELTZA 330 NR",
+                "LEFFE RADIUSSE 330NR",
+                "LEFFE BLONDE 330NR",
+                "FRANCISKANER 500NR",
+                "FRANZISKANER DUNKELL 500NR",
+                "BUDWEISER AMERICANA 330NR",
+                "BUD CHECA 330NR",
+                "CHIMAY AZUL G.RESERVA 330NR",
+                "CHIMAY BCA.8º TRIPLE 330NR",
+                "CHIMAY ROJA 7º 330NR",
+                "GRIMBERGER BLONDE 330 NR",
+                "GRIMBERGER DOUBLE 330NR",
+                "DELIRIUM NOCTURN 330NR",
+                "DELIRIUM TREMENS 330NR",
+                "LEFFE VIEILLE CUVEE 330NR"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Una cerveza artesana para tu carta? ¿Un formato especial para las fiestas del pueblo? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/stock/cerveza-cana-2.webp",
+        "alt": "Vaso de cerveza sobre la barra de un bar"
+      },
+      "related": [
+        "sidra-txakoli",
+        "refrescos",
+        "vinos"
+      ],
+      "seo": {
+        "title": "Cervezas para Hostelería en Navarra — Barriles, Retornables e Importación | Manuel Taberna Edariak",
+        "desc": "Distribución de cerveza para bares en Bera, Navarra: barriles Amstel y Heineken, retornables e importación belga y alemana. Reparto semanal en Bortziriak y Baztán.",
+        "keywords": "cerveza hostelería Navarra, barriles cerveza Amstel Heineken, distribuidor cerveza Bera, cerveza importación bares, mayorista cerveza Bortziriak",
+        "ogTitle": "Cervezas para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Barriles, retornables y cervezas de importación para bares y restaurantes. Reparto semanal desde Bera.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/cervezas.webp"
+      }
+    },
+    {
+      "slug": "whiskies",
+      "h1": "Whiskies",
+      "eus": "Whiskiak",
+      "heroLead": "Del combinado de cada noche al malta que se sirve despacio: whiskies escoceses, irlandeses, canadienses y bourbon para la hostelería, con reparto semanal a tu local.",
+      "introH2": "De la botella de batalla al malta de quince años",
+      "introLead": "J.B., Ballantines y Johnnie Walker para la barra de cada día; Chivas, Cardhu, Glenfiddich o Macallan para el cliente que sabe lo que pide. Una estantería completa, en los formatos que mejor rotan en tu local.",
+      "introImg": {
+        "src": "/assets/images/stock/whisky-vaso-2.webp",
+        "alt": "Copa Glencairn de whisky sobre fondo negro"
+      },
+      "listTitle": "Catálogo de whiskies",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Whisky estándar",
+          "eus": "Whiski arrunta",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "J.B. 70 WHISKY",
+                "WILLIAMS GRANTS Lt",
+                "PASSPORT 70cl",
+                "100 PIPPERS 70cl",
+                "WHITTE LABEL 70cl",
+                "JOHNNIE WALKER 70cl",
+                "BALLANTINES 70cl",
+                "WHISKY GRANTS 1.5 L",
+                "WHISKY GRANT'S 2 Lt",
+                "GRANTS 3 Lt BALANTZINA",
+                "GRANTS 4.5 Lt BALANTZINA"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Whisky escocés especial",
+          "eus": "Eskoziar whiski berezia",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "BALLANTINES BRASIL 70cl",
+                "NOMAD 70cl",
+                "J&B RESERVA 15URTE",
+                "JOHNNIE WALKER ET. NEGRA 12urte",
+                "CHIVAS REGAL 12urte 70cl",
+                "BALLANTINES BLUE 12URTE",
+                "JURA ORIGIN 10 URTE 40º 70cl",
+                "JURA ORIGIN 10 URTE 40º LT",
+                "JOHNNIE WALKER GREEN 70cl",
+                "JOHNNIE WALKER GOLD 12urte 70cl",
+                "HAIG CLUB"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Whisky de malta especial",
+          "eus": "Malta whiski berezia",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "SINGLETON SPEY CASCADE",
+                "KNOCKANDO MALTA 70cl",
+                "CARDHU AMBER ROCK 70cl",
+                "CARDHU MALTA 12urte 70cl",
+                "CARDHU GOLD RESERVA 70cl",
+                "CARDHU MALTA 12urte LT",
+                "CARDHU MALTA 15urte",
+                "JURA ORIGIN 10 URTE 40º LT",
+                "GLENFIDDICH 12urte Lt",
+                "GLENKINCHIE MALTA 10urte",
+                "DALMORE 12 70cl",
+                "MACKALLAN 12urte 70cl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Otros whiskies",
+          "eus": "Besteak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "h4",
+              "es": "Whisky de malta",
+              "eus": "Malta whiskia"
+            },
+            {
+              "type": "list",
+              "items": [
+                "GLEN GRANT Lt"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Whisky irlandés",
+              "eus": "Irlandar whiskia"
+            },
+            {
+              "type": "list",
+              "items": [
+                "WHISKI JAMESON 70cl"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Whisky canadiense",
+              "eus": "Kanadiar whiskia"
+            },
+            {
+              "type": "list",
+              "items": [
+                "CANADIAN CLUB Lt",
+                "FIREBALL 70cl"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Bourbon",
+              "eus": "Burbon whiskia"
+            },
+            {
+              "type": "list",
+              "items": [
+                "BOURBON REBEL YELL",
+                "FOUR ROSES 70cl",
+                "WILD TURKEY 81 70cl",
+                "JACK DANIELS Lt",
+                "JACK DANIELS COLA LATA"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Un malta concreto que te piden tus clientes? ¿Una edición especial para regalo? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/stock/whisky-vaso-1.webp",
+        "alt": "Vaso de whisky servido sobre la barra de un bar"
+      },
+      "related": [
+        "licores",
+        "ginebra-vodka-ron-tequila",
+        "anis-brandy-pacharan"
+      ],
+      "seo": {
+        "title": "Whiskies para Hostelería en Navarra — Escocés, Malta y Bourbon | Manuel Taberna Edariak",
+        "desc": "Distribución de whisky para bares en Bera, Navarra: marcas estándar, escocés de malta, irlandés y bourbon. Reparto semanal en Bortziriak, Malerreka y Baztán.",
+        "keywords": "whisky hostelería Navarra, distribuidor whisky escocés, whisky de malta bares, mayorista whisky Bera, bourbon hostelería",
+        "ogTitle": "Whiskies para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Whisky estándar, escocés especial, maltas y bourbon para bares y restaurantes. Reparto semanal desde Bera.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/whiskies.webp"
+      }
+    },
+    {
+      "slug": "licores",
+      "h1": "Licores",
+      "eus": "Likorrak",
+      "heroLead": "El chupito que cierra la comida y la copa que alarga la sobremesa: orujos, cremas y licores de fruta para bares, restaurantes y tiendas, con reparto semanal a tu local.",
+      "introH2": "La sobremesa que fideliza clientes",
+      "introLead": "Del orujo de hierbas que invita la casa al Licor 43 del carajillo: Ruavieja, Jagermeister, Cointreau, Frangelico y todas las referencias que hacen que la mesa pida otra ronda antes de levantarse.",
+      "introImg": {
+        "src": "/assets/images/stock/licores-botellas-2.webp",
+        "alt": "Botellas de licor ámbar retroiluminadas"
+      },
+      "listTitle": "Catálogo de licores",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Licores de fruta",
+          "eus": "Fruta likorrak",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "SAINT LERY MELOCOTON 70cl",
+                "GRANPECHER 70cl",
+                "BLANCA MELOCOTON Lt",
+                "GRANPOMIER 70cl",
+                "BLANCA DE MANZANA Lt",
+                "BLANCA DE PIÑA Lt.",
+                "BLANCA DE MELON Lt",
+                "FRANGELICO 70cl",
+                "LICOR PASSOA 70cl",
+                "LICOR PASSOA Lt"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Licores",
+          "eus": "Likorrak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "PECHE WHISKY COCKTAIL 70cl",
+                "LICOR WHISKY ANANAS 70cl",
+                "MALIBU 70cl",
+                "JAGERMEISTER 70cl",
+                "LICOR 43 Lt",
+                "LICOR BENEDICTINE 70cl",
+                "GRAN MARNIER ET. ROJA",
+                "GRAN MARNIER ET. ROJA LT",
+                "COINTREAU Litro",
+                "AMARETTO VENICE 70cl",
+                "AMARETTO DI SARONNO 70cl",
+                "DRAMBUIE 70cl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Orujos",
+          "eus": "Oruxoak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "h4",
+              "es": "Cremas",
+              "eus": "Kremak"
+            },
+            {
+              "type": "list",
+              "items": [
+                "ALTAVILLA CREMA 70cl",
+                "CREMA ORUJO RUAVIEJA 70cl",
+                "CAROLANS 70cl BAILEY'S 70cl"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Orujos blancos",
+              "eus": "Oruxo xuriak"
+            },
+            {
+              "type": "list",
+              "items": [
+                "LICOR ORUJO RUAVIEJA 70cl",
+                "VIZCONDE DE TUI ORUXO 70cl",
+                "ALTAVILLA ORUXO 70cl",
+                "BLANCA ORUXO XURIA Lt",
+                "RUAVIEJA ORUJO 70cl",
+                "ORUJO AÑEJO BELASCO 70cl",
+                "MARC DE CAVA J. MATERNE 70CL"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Orujos de hierbas",
+              "eus": "Belar oruxoak"
+            },
+            {
+              "type": "list",
+              "items": [
+                "ALTAVILLA HIERBAS 70cl",
+                "VIZCONDE DE TUI BELARRA 70cl",
+                "RUAVIEJA HIERBAS 70cl",
+                "AFILADOR BELARRA Lt",
+                "BLANCA HIERBAS Lt",
+                "RUAVIEJA TE JENGIBRE 70cl",
+                "AVERNA AMARO 70CL"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Licores de café",
+              "eus": "Kafe likorrak"
+            },
+            {
+              "type": "list",
+              "items": [
+                "RUAVIEJA LICOR CAFÉ 70cl",
+                "TIA MARIA 70cl"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Especiales de manzana",
+              "eus": "Sagarra bereziak"
+            },
+            {
+              "type": "list",
+              "items": [
+                "SAGARDOZ RESERVA 70cl"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Licores especiales",
+              "eus": "Likor berexiak"
+            },
+            {
+              "type": "list",
+              "items": [
+                "TAURUS 70cl"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Un licor concreto que piden tus clientes? ¿Una crema que probaste en otra plaza? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/categorias/licores.webp",
+        "alt": "Botellas de licores del catálogo de Manuel Taberna"
+      },
+      "related": [
+        "whiskies",
+        "anis-brandy-pacharan",
+        "miniaturas"
+      ],
+      "seo": {
+        "title": "Licores para Hostelería en Navarra — Orujos, Cremas y Fruta | Manuel Taberna Edariak",
+        "desc": "Distribución de licores para bares en Bera, Navarra: orujos, cremas, licores de fruta, café y hierbas. Reparto semanal en Bortziriak, Malerreka y Baztán.",
+        "keywords": "licores hostelería Navarra, distribuidor orujo crema, licor de hierbas bares, mayorista licores Bera, licor de fruta hostelería",
+        "ogTitle": "Licores para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Licores de fruta, cremas, orujos y licores de café para bares y restaurantes. Reparto semanal desde Bera.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/licores.webp"
+      }
+    },
+    {
+      "slug": "ginebra-vodka-ron-tequila",
+      "h1": "Ginebra · Vodka · Ron · Tequila",
+      "eus": "Ginebra-Vodka-Ron-Tekila",
+      "heroLead": "Los destilados que sostienen la noche: del gin-tonic premium al cubata de siempre, todo lo que necesita tu estación de copas, con reparto semanal a tu local.",
+      "introH2": "Una estación de copas a la altura",
+      "introLead": "Hendricks, Monkey 47 y Nordés para el cliente del gin-tonic; Habana Club, Brugal y Zacapa para el ron; Absolut y Ciroc para el vodka, y los tequilas que animan la última hora. Marcas de poso y novedades que rotan.",
+      "introImg": {
+        "src": "/assets/images/stock/gin-tonic-2.webp",
+        "alt": "Gin-tonic con rodaja de lima recién preparado"
+      },
+      "listTitle": "Catálogo de destilados",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Ginebra",
+          "eus": "Ginebra",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "GINEBRA M.G. 70cl",
+                "GORDON'S 70cl",
+                "GIN LARIOS Lt",
+                "GIN BOMBAY 70cl",
+                "BANKES GIN Lt",
+                "MASTERS GIN 70cl",
+                "BEEFEATER 70cl.",
+                "GIN TANQUERAY 70cl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ginebra premium",
+          "eus": "Ginebra premium",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "PUERTO INDIAS STRAWBERRY 70cl",
+                "GINIAL ROSE 25º 70cl",
+                "BEEFEATER PINK 70cl.",
+                "VALXERIT ROSE 70cl",
+                "BROKERS LONDON GIN 70cl",
+                "GINIAL 25º 70cl",
+                "SEAGRAMS 70cl",
+                "VALXERIT 70cl",
+                "GIN BOMBAY SAPPHIRE 70cl",
+                "MOM GIN 70cl",
+                "GIN NORDES 70cl",
+                "BEEFEATER 24 70cl",
+                "MARTIN MILLERS GIN 70cl",
+                "PLYMOUTH GIN STD 70cl",
+                "TANKERAY TEN GIN 70C",
+                "LONDON GIN 70cl",
+                "GIN HENDRICKS 70cl",
+                "BULLDOG GIN Lt",
+                "MONKEY 47 50cl",
+                "BEEFEATER BURROUGH´S 70cl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ron blanco",
+          "eus": "Ron xuria",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "LEGENDARIO AÑEJO XURIA 70cl",
+                "HABANA CLUB 3 URTE 70cl",
+                "BACARDI Lt"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ron oscuro",
+          "eus": "Ron beltza",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "FLOR CAÑA 5 GOLD 70cl",
+                "CAPTAIN MORGAN SPICE G. 70cl",
+                "CAPTAIN MORGAN SPICE G. LT",
+                "CAPTAIN MORGAN 70cl",
+                "NEGRITA Lt",
+                "LEGENDARIO DORADO 70cl",
+                "CACIQUE 70cl",
+                "RITUAL AÑEJO 70cl",
+                "BRUGAL AÑEJO 70cl",
+                "FLOR CAÑA 7urte GRAN RVA 70cl",
+                "CACIQUE ORIGEN 70cl",
+                "HAVANA CLUB AÑEJO 70cl",
+                "BARCELO AÑEJO 70cl",
+                "LEGENDARIO ELIXIR 70cl",
+                "CACIQUE 500 70cl",
+                "HABANA CLUB 7 URTE 70cl",
+                "APPLETON STATE VX 70cl",
+                "ZACAPA 23 RON 70CL"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vodka",
+          "eus": "Vodka",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "YURINKA 70cl",
+                "SOBIESKI LITRO",
+                "VODKA SVEDKA 70cl",
+                "SKYY 70cl",
+                "SKYY Lt",
+                "VODKA STOLICHNAYA 70cl",
+                "ABSOLUT 70cl",
+                "SMIRNOFF Lt",
+                "ERISTOFF BLACK 70cl",
+                "VODKA CARAMELO VEROTZA 70cl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vodka premium",
+          "eus": "Vodka premium",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "VODKA IMPERIAL 70cl",
+                "VODKA CIROC 70cl",
+                "VODKA DRUIDE MYSTICAL",
+                "STOLICHNAYA ELITE 70cl",
+                "WYBOROWA EXQUISITE 70cl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tequila",
+          "eus": "Tekila",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "OLMECA TXOKOLATE 70cl",
+                "OLMECA BLANCO 70cl",
+                "JOSE CUERVO REPOSADO 70cl",
+                "OLMECA REPOSADO 70cl",
+                "ESPOLON REPOSADO 70cl",
+                "TEKILA FRESA CINCOCENTO LT",
+                "TEKILA FRESA BUITRAL LT"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Una ginebra de moda que te piden en la barra? ¿Un ron añejo para tu carta de copas? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/stock/gin-tonic-1.webp",
+        "alt": "Vaso de ginebra con lima junto a su botella"
+      },
+      "related": [
+        "whiskies",
+        "licores",
+        "refrescos"
+      ],
+      "seo": {
+        "title": "Ginebra, Vodka, Ron y Tequila para Hostelería en Navarra | Manuel Taberna Edariak",
+        "desc": "Distribución de destilados para bares en Bera, Navarra: ginebras premium, vodka, ron y tequila para tus combinados. Reparto semanal en Bortziriak y Baztán.",
+        "keywords": "ginebra hostelería Navarra, distribuidor vodka ron, ginebra premium bares, mayorista destilados Bera, tequila hostelería",
+        "ogTitle": "Ginebra, Vodka, Ron y Tequila para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Ginebras premium, vodkas, rones y tequilas para bares y restaurantes. Reparto semanal desde Bera.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/ginebra-vodka-ron-tequila.webp"
+      }
+    },
+    {
+      "slug": "anis-brandy-pacharan",
+      "h1": "Anís · Brandy · Pacharán",
+      "eus": "Anisa - Brandia - Patxarana",
+      "heroLead": "Los clásicos que nunca fallan en la sobremesa navarra: pacharán de la tierra, anís de toda la vida y brandis para todos los paladares, con reparto semanal a tu local.",
+      "introH2": "La sobremesa de toda la vida",
+      "introLead": "Zoco, Etxeko y Beloki para el pacharán que aquí se pide solo; Anís del Mono y Chinchón para los de siempre, y una escala de brandis que va del Soberano de barra al Carlos I Imperial, con armañac y coñac para rematar la carta.",
+      "introImg": {
+        "src": "/assets/images/stock/brandy-copa-1.webp",
+        "alt": "Copa de brandy sobre fondo negro"
+      },
+      "listTitle": "Catálogo de anís, brandy y pacharán",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Anís",
+          "eus": "Anisa",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "ANIS MONO DULCE 70cl",
+                "MARIE BRIZARD Lt",
+                "CHINCHON DULCE Lt",
+                "ANIS CASTELLANA Lt",
+                "ANIS CADENAS Lt",
+                "CHINCHON SECO Lt",
+                "ANIS 28º 3 Lt"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pastis",
+          "eus": "Pastisa",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "PASTIS LEHMANN F. HIERBAS",
+                "RICARD LT"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pacharán",
+          "eus": "Patxarana",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "BELOKI LICOR ENDRINAS Lt",
+                "PATXARAN \"CASERO\" BASTIDA",
+                "NAVARRA PATXARANA Lt",
+                "ZOCO PATXARANA Lt",
+                "ETXEKO PATXARANA Lt",
+                "BELASKO 1580 PATXARANA 70cl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ponche y pipermín",
+          "eus": "Pontxea-Pipermint",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "PONTXE REAL TESORO Lt",
+                "PONTXE CABALLERO Lt",
+                "PIPPER MARIE BRIZARD 70cl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Brandis",
+          "eus": "Brandiak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "h4",
+              "es": "Brandis de diario",
+              "eus": "Brandi arruntak"
+            },
+            {
+              "type": "list",
+              "items": [
+                "BRANDY GRAN MARQUES Lt",
+                "CENTENARIO TERRY Lt",
+                "ESPLENDIDO GARVEY Lt",
+                "BRANDY 103 Lt",
+                "SOBERANO Lt",
+                "VETERANO Lt"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Brandis especiales",
+              "eus": "Brandi bereziak"
+            },
+            {
+              "type": "list",
+              "items": [
+                "BRANDY TORRES 5 70cl",
+                "TERRY 1900 70cl",
+                "CARLOS III 70cl",
+                "MAGNO 70cl",
+                "BRANDY 103 ET. NEGRA 70cl",
+                "BRANDY TORRES 10 70cl"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Alta gama",
+              "eus": "Brandi goi maila"
+            },
+            {
+              "type": "list",
+              "items": [
+                "BRANDY LEPANTO 70cl",
+                "BRANDY CARLOS I 70cl",
+                "BRANDY CARLOS I IMPERIAL 70cl",
+                "BRANDY LARIOS 1866 70cl",
+                "BRANDY MªLEHMANN X.O. 70cl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Armañac",
+          "eus": "Armagnaka",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "FINE ARMAGNAC DELORD 70cl",
+                "ARMAGNAC CLES DES DUCS V.S.O.P. 70cl",
+                "FINE ARMAGNAC DELORD 1500"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Coñac",
+          "eus": "Koinaka",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "MARTELL COGNAC VS",
+                "COGNAC REMY MARTIN VSOP"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Un pacharán artesano de una destilería pequeña? ¿Un brandy concreto para un cliente fiel? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/categorias/anis-brandy-pacharan.webp",
+        "alt": "Botellas de anís, brandy y pacharán del catálogo"
+      },
+      "related": [
+        "licores",
+        "whiskies",
+        "miniaturas"
+      ],
+      "seo": {
+        "title": "Anís, Brandy y Pacharán para Hostelería en Navarra | Manuel Taberna Edariak",
+        "desc": "Distribución de anís, brandy y pacharán navarro para bares en Bera, Navarra: Zoco, Etxeko, Carlos I, armañac y coñac. Reparto semanal en Bortziriak y Baztán.",
+        "keywords": "pacharán navarro hostelería, distribuidor brandy coñac, anís bares Navarra, mayorista pacharán Bera, armañac hostelería",
+        "ogTitle": "Anís, Brandy y Pacharán para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Pacharán navarro, anís, brandis, armañac y coñac para bares y restaurantes. Reparto semanal desde Bera.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/anis-brandy-pacharan.webp"
+      }
+    },
+    {
+      "slug": "refrescos",
+      "h1": "Refrescos",
+      "eus": "Freskagarriak",
+      "heroLead": "Lo que más rota en tu nevera: Schweppes, Coca Cola, Kas y las tónicas premium que piden los combinados de ahora, con reparto semanal a tu local.",
+      "introH2": "La nevera que nunca se queda vacía",
+      "introLead": "Retornables de Schweppes para la barra, la gama premium para el gin-tonic, packs y latas para la tienda. Coca Cola, Kas, Aquarius o Monster: el surtido completo para que ningún cliente se quede sin lo suyo.",
+      "introImg": {
+        "src": "/assets/images/stock/refrescos-botellas-1.webp",
+        "alt": "Nevera llena de botellas de refrescos de colores"
+      },
+      "listTitle": "Catálogo de refrescos",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Schweppes",
+          "eus": "",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "SCHWEPPES TONICA 180 RET",
+                "SCHWEPPES NARANJA 180 RET",
+                "SCHWEPPES LIMON 180 RET",
+                "TONICA HERITAGE PREMIUM 200NR",
+                "LIMON SCHWEPPS PREMIUM 200NR",
+                "GINGER SCHWEPPES PREMIUM 200NR",
+                "NARANJA SCHWEPPES PREMIUM 200NR",
+                "HIBISCUS SCHWEPPES PREMIUM 200NR",
+                "PIMIENTA ROSA SCHWEPPES PREMIUM 200NR",
+                "SCHWEPPES TONICA 200 BANDEJA",
+                "SCHWEPPES NARANJA 200 BANDEJA",
+                "SCHWEPPES LIMON 200 BANDEJA",
+                "SCHWEPPES TONICA 250 PACK4",
+                "SCHWEPPES TONICA LATA",
+                "SCHWEPPES NARANJA LATA",
+                "SCHWEPPES LIMON LATA"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Formato PET",
+              "eus": "Plastikozkoak"
+            },
+            {
+              "type": "list",
+              "items": [
+                "SCHWEPPES TONICA 1000 PET",
+                "SCHWEPPES NARANJA 1000 PET",
+                "SCHWEPPES LIMON 1500 PET"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Coca Cola",
+          "eus": "",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "COCA COLA PACK6",
+                "COCA COLA LATA",
+                "COCA COLA ZERO LATA"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kas",
+          "eus": "",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "KAS NARANJA PACK6",
+                "KAS LIMON PACK6",
+                "BITTER KAS PACK6"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Otros refrescos",
+          "eus": "Besteak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "TRINA-MANZANA LT. N.R.",
+                "TI TE NEGRO-LIMON",
+                "SEVEN-UP PACK6",
+                "BITTER CINZANO PACK6",
+                "SANPELLEGRINO NAR.LATA",
+                "SANPELLEGRINO",
+                "AQUARIUS NARANJA LATA",
+                "MONSTER ENERGY DRINK"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Un refresco que te piden y no encuentras? ¿Un formato especial para un evento? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/stock/almacen-cajas-1.webp",
+        "alt": "Cajas de refrescos apiladas en el almacén"
+      },
+      "related": [
+        "zumos-jarabes",
+        "aguas",
+        "cervezas"
+      ],
+      "seo": {
+        "title": "Refrescos para Hostelería en Navarra — Schweppes, Coca-Cola y Kas | Manuel Taberna Edariak",
+        "desc": "Distribución de refrescos para bares en Bera, Navarra: Schweppes retornable y premium, Coca Cola, Kas y tónicas. Reparto semanal en Bortziriak, Malerreka y Baztán.",
+        "keywords": "refrescos hostelería Navarra, distribuidor Schweppes Coca Cola, tónica premium bares, mayorista refrescos Bera, Kas hostelería",
+        "ogTitle": "Refrescos para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Schweppes, Coca Cola, Kas y tónicas premium para bares y restaurantes. Reparto semanal desde Bera.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/refrescos.webp"
+      }
+    },
+    {
+      "slug": "cavas",
+      "h1": "Cavas",
+      "eus": "Kaba - Txanpaina",
+      "heroLead": "Para el brindis de cada celebración: cavas brut de las grandes casas, prosecco y champagne francés para bares, restaurantes y tiendas, con reparto semanal a tu local.",
+      "introH2": "Burbujas para cada ocasión",
+      "introLead": "Del Codorniu de los menús de grupo al Juve y Camps Reserva de la Familia de las grandes ocasiones, pasando por prosecco italiano y champagnes como Mumm o Perrier Jouet. Que en tu local nunca falte con qué brindar.",
+      "introImg": {
+        "src": "/assets/images/stock/cava-brindis-2.webp",
+        "alt": "Manos brindando con copas de cava"
+      },
+      "listTitle": "Catálogo de cavas y champagne",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Cava",
+          "eus": "Kaba",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "BENJAMIN 1551 BRUT NATURE PACK3",
+                "BENJAMIN PACK3",
+                "DELAPIERRE ET. NEGRA BRUT",
+                "ROGER DE FLOR BRUT",
+                "CODORNIU GRAN CREMANT S/S",
+                "CODORNIU GRAN CREMANT BRUT",
+                "GRAN BACH BRUT",
+                "CODORNIU BRUT CLASICO",
+                "CAVA BACH ROSE BRUT",
+                "CODORNIU EXTRA S/S",
+                "CODORNIU EXTRA BRUT",
+                "CASTELL VILARNAU BRUT RESERVA",
+                "ANNA CODORNIU BRUT NATURE",
+                "JUVE Y CAMPS BRUT CINTA PURPURA",
+                "CODORNIU NON PLUS ULTRA",
+                "GRAN CODORNIU CHARDONNAY",
+                "GRAN CODORNIU PINOT NOIR",
+                "JUVE Y CAMPS RESERVA FAMILIA",
+                "MAGNUM CODORNIU 1551 BRUT NATURE",
+                "MAGNUM ANNA DE CODORNIU",
+                "CINZANO PROSPITZ",
+                "CINZANO PROSECO",
+                "FOLLADOR PROSECO (TREVISO)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Champagne",
+          "eus": "Txanpaina",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "MUMM CHAMPAGNE C.ROUGE",
+                "PERRIER JOUET BRUT",
+                "POMMERY BRUT ROYAL"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Un champagne concreto para una boda? ¿Cajas para las fiestas del pueblo? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/categorias/cavas.webp",
+        "alt": "Botellas de cava y champagne del catálogo"
+      },
+      "related": [
+        "vinos",
+        "sidra-txakoli",
+        "cristaleria"
+      ],
+      "seo": {
+        "title": "Cavas y Champagne para Hostelería en Navarra | Manuel Taberna Edariak",
+        "desc": "Distribución de cava y champagne para bares y restaurantes en Bera, Navarra: Codorniu, Juve y Camps, prosecco y Mumm. Reparto semanal en Bortziriak y Baztán.",
+        "keywords": "cava hostelería Navarra, distribuidor champagne, Codorniu brut bares, mayorista cava Bera, prosecco hostelería",
+        "ogTitle": "Cavas y Champagne para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Cavas brut, prosecco y champagne para bares y restaurantes. Reparto semanal desde Bera.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/cavas.webp"
+      }
+    },
+    {
+      "slug": "sidra-txakoli",
+      "h1": "Sidra · Txakoli",
+      "eus": "Sagardoa - Txakolina",
+      "heroLead": "Lo nuestro: sidra natural de Zapiain y Urdaira en botella o barrica, y txakoli de Getaria, Araba y Hondarribia. La bebida de la tierra, con reparto semanal a tu local.",
+      "introH2": "Del txotx a tu barra",
+      "introLead": "Trabajamos sagardotegias de referencia como Zapiain y la sidra Urdaira de aquí al lado, en botella retornable, no retornable y barrica de 30 y 50 litros. Y para el escanciado fino, txakolis con denominación que defienden cualquier carta.",
+      "introImg": {
+        "src": "/assets/images/stock/sidra-vasca-2.webp",
+        "alt": "Kupelas de sidra durante el txotx en una sagardotegia"
+      },
+      "listTitle": "Catálogo de sidra y txakoli",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Sidra",
+          "eus": "Sagardoa",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "URDAIRA SAGARDOA RET",
+                "ZAPIAIN SAGARDOA RET",
+                "URDAIRA SAGARDOA N.R",
+                "ZAPIAIN SAGARDOA NR",
+                "ZAPIAIN BEREIZIA SAGARDOA NR",
+                "URDAIRA 30LT BARRIKA",
+                "ZAPIAIN 50LT BARRIKA",
+                "TUBO ACIDO EXTENDAPACK 16"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Txakoli",
+          "eus": "Txakolina",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "KURMISTI DO gabe",
+                "TXAKOLI XARMANT (ARABA)",
+                "TXAKOLI ETXETXO (GETARIA)",
+                "TXAKOLI HIRUZTA (HONDARRIBIA)"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Una sidrería concreta para tu menú de temporada? ¿Un txakoli que probaste y quieres en tu carta? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/stock/sidra-vasca-1.webp",
+        "alt": "Cartel de sagardotegia en un campo verde"
+      },
+      "related": [
+        "vinos",
+        "cervezas",
+        "cavas"
+      ],
+      "seo": {
+        "title": "Sidra Natural y Txakoli para Hostelería en Navarra | Manuel Taberna Edariak",
+        "desc": "Distribución de sidra natural y txakoli para bares en Bera, Navarra: Zapiain, Urdaira en botella y barrica, txakoli de Getaria y Araba. Reparto semanal en Bortziriak.",
+        "keywords": "sidra natural hostelería Navarra, distribuidor txakoli, sidra Zapiain barrica, mayorista sidra Bera, txakoli Getaria bares",
+        "ogTitle": "Sidra Natural y Txakoli para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Sidra Zapiain y Urdaira en botella y barrica, txakoli de Getaria, Araba y Hondarribia. Reparto semanal desde Bera.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/sidra-txakoli.webp"
+      }
+    },
+    {
+      "slug": "aperitivos",
+      "h1": "Aperitivos",
+      "eus": "Aperitiboak",
+      "heroLead": "Vermut, bitters, moscateles y oportos: todo lo que pide tu barra a la hora del aperitivo, con reparto semanal a bares y comercios de la comarca.",
+      "introH2": "La hora del vermut, siempre a punto",
+      "introLead": "Cinzano, Martini, Yzaguirre, Aperol, Campari… las marcas que tu clientela pide en la ronda de las doce, junto a moscateles navarros de Camilo Castilla y oportos para acompañar el pintxo. Una llamada y lo tienes en tu local.",
+      "introImg": {
+        "src": "/assets/images/stock/vermut-aperitivo-2.webp",
+        "alt": "Copa de martini sobre fondo oscuro de bar"
+      },
+      "listTitle": "Catálogo de aperitivos",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Vermut",
+          "eus": "Bermuta",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "CINZANO GORRIA Lt",
+                "CINZANO XURIA Lt",
+                "MOLTENI GORRIA Lt",
+                "YZAGUIRRE GORRIA Lt",
+                "MARTINI GORRIA Lt",
+                "YZAGUIRRE RESERBA GORRIA Lt",
+                "MOLTENI XURIA Lt",
+                "MARTINI XURIA Lt"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bitter",
+          "eus": "Biterra",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "APEROL Lt",
+                "CAMPARI LITRO 25% Lt",
+                "APERITIVO CYNAR Lt"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Moscatel",
+          "eus": "Moskatela",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "CAPRICHO DE GOYA 50cl",
+                "MOSCATEL SRIO ANDION 50cl",
+                "CAMILO CASTILLA RAYO SOL 75cl",
+                "GOYA BLANCO LAUREL 75cl",
+                "MOSCATEL GOYA Lt",
+                "MOSCATEL DE LA VARA 2 Litro",
+                "MOSCATEL GOYA 2Lt",
+                "BIZI GOXO ZAPIAIN",
+                "VINO DE MISA C.CASTILLA 75cl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Oporto",
+          "eus": "Oportoa",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "OPORTO OLD BAMBOLA Lt",
+                "PORTO LORETO TAWNY Lt",
+                "PORTO LORETO XURI Lt",
+                "PORTO GRAHAMS XURIA 75cl",
+                "PORTO GRAHAMS 10 URTE 75cl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vinos dulces",
+          "eus": "Goxoak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "KINA SAN CLEMENTE Lt",
+                "MALAGA VIRGEN 75cl",
+                "NECTAR PEDRO XIMENEZ 75cl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Finos",
+          "eus": "Finoak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "TIO PEPE 75cl"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Un vermut concreto para tu barra? ¿Un formato especial para un evento? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/stock/copa-vino-tinto-2.webp",
+        "alt": "Copa de vino tinto en una mesa de terraza"
+      },
+      "related": [
+        "vinos",
+        "conservas",
+        "refrescos"
+      ],
+      "seo": {
+        "title": "Aperitivos y Vermut para Hostelería en Navarra | Manuel Taberna Edariak",
+        "desc": "Distribución de aperitivos para bares en Bera, Navarra: vermut Yzaguirre, Martini y Cinzano, Aperol, Campari, moscatel y oporto. Reparto semanal en Bortziriak, Malerreka y Baztán.",
+        "keywords": "vermut hostelería Navarra, distribuidor aperitivos Bera, Aperol Campari mayorista, moscatel oporto bares, aperitivos Bortziriak",
+        "ogTitle": "Aperitivos para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Vermut, bitters, moscateles y oportos para la hora del aperitivo. Reparto semanal a bares y restaurantes.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/aperitivos.webp"
+      }
+    },
+    {
+      "slug": "cafes",
+      "h1": "Cafés",
+      "eus": "Kafeak",
+      "heroLead": "Del primer café de la mañana al cortado de después de comer: grano, molido y descafeinado para tu cafetera, con el azúcar y el chocolate incluidos en el mismo pedido.",
+      "introH2": "El café que sostiene tu barra",
+      "introLead": "El café es la bebida que más veces sale de tu máquina cada día. Por eso trabajamos mezcla 80/20 en grano, molido de hostelería y descafeinado en grano y en sobres, junto al Cola Cao y el azúcar en todos los formatos. Todo en un único reparto.",
+      "introImg": {
+        "src": "/assets/images/stock/cafe-grano-1.webp",
+        "alt": "Granos de café tostado"
+      },
+      "listTitle": "Catálogo de cafés",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Cafés",
+          "eus": "Kafeak",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "NOVOCAFE MEZCLA 80/20 Kg",
+                "CAFE HOSTELERIA MOLIDO 1Kg",
+                "CAFE MOLIDO DESCAFEINADO Kg",
+                "DESCAFEINADO EXPRESSO 50 S/",
+                "NESCAFE DESCAF. 100S/"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chocolates",
+          "eus": "Txokolateak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "COLA CAO 50 SOBRE"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Azúcar",
+          "eus": "Azukrea",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "AZUCAR BOLSITAS 8G-10 Kg",
+                "AZUCAR 1 TERRON 10 Kg",
+                "AZUCAR CUCHARILLA 500"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Un tueste concreto para tu cafetera? ¿Un formato especial para tu local? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/stock/cafe-grano-2.webp",
+        "alt": "Granos de café en un cuenco blanco"
+      },
+      "related": [
+        "leche",
+        "aguas",
+        "zumos-jarabes"
+      ],
+      "seo": {
+        "title": "Café para Hostelería en Navarra — Grano, Molido y Descafeinado | Manuel Taberna Edariak",
+        "desc": "Distribución de café para bares y restaurantes en Bera, Navarra: café en grano mezcla, molido, descafeinado, Cola Cao y azúcar en sobres. Reparto semanal en Bortziriak, Malerreka y Baztán.",
+        "keywords": "café hostelería Navarra, café en grano bares, distribuidor café Bera, azúcar sobres hostelería, descafeinado mayorista",
+        "ogTitle": "Cafés para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Café en grano, molido y descafeinado, chocolate y azúcar para tu barra. Reparto semanal a bares y restaurantes.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/cafes.webp"
+      }
+    },
+    {
+      "slug": "leche",
+      "h1": "Leche",
+      "eus": "Esnea",
+      "heroLead": "Leche Lacturale de caseríos navarros para los cafés, las meriendas y la cocina de tu local: entera, semi, desnatada y sin lactosa, siempre en tu reparto semanal.",
+      "introH2": "Leche navarra para tu cafetera",
+      "introLead": "Trabajamos Lacturale, la leche de las ganaderías de Navarra, en brik de litro y en todas sus variedades: entera, semidesnatada, desnatada y semi sin lactosa. Un cortado con buena leche se nota, y tu clientela lo agradece.",
+      "introImg": {
+        "src": "/assets/images/stock/leche-jarra-1.webp",
+        "alt": "Botellas de leche de cristal estilo vintage"
+      },
+      "listTitle": "Catálogo de leche",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Leche Lacturale",
+          "eus": "Lacturale esnea",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "LACTURALE ENTERA BRIK LT",
+                "LACTURALE SEMI BRIK LT",
+                "LACTURALE DESNATADA BRIK LT",
+                "LACTURALE SEMI SIN LACTOSA BRIK LT"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Batidos",
+          "eus": "Irabiakiak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "BATIDO CHOCOLATE"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Otra variedad de leche? ¿Un formato especial para tu cocina? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/categorias/leche.webp",
+        "alt": "Jarra y vasos de leche fresca junto a una cántara metálica"
+      },
+      "related": [
+        "cafes",
+        "zumos-jarabes",
+        "aguas"
+      ],
+      "seo": {
+        "title": "Leche Lacturale para Hostelería en Navarra | Manuel Taberna Edariak",
+        "desc": "Distribución de leche Lacturale para bares y restaurantes en Bera, Navarra: entera, semidesnatada, desnatada, sin lactosa y batidos. Reparto semanal en Bortziriak, Malerreka y Baztán.",
+        "keywords": "leche Lacturale hostelería, distribuidor leche Navarra, leche brik bares Bera, leche sin lactosa hostelería, batido chocolate mayorista",
+        "ogTitle": "Leche para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Leche Lacturale en todas sus variedades y batidos. Reparto semanal a bares y restaurantes.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/leche.webp"
+      }
+    },
+    {
+      "slug": "aguas",
+      "h1": "Aguas",
+      "eus": "Urak",
+      "heroLead": "Insalus de Lizartza, San Pellegrino, Perrier, gaseosas y sifones: el agua que más se sirve en tu mesa, en todos los formatos y con reparto semanal a tu local.",
+      "introH2": "Agua para todas las mesas",
+      "introLead": "Botella retornable para el menú del día, cristal para la mesa, PET para llevar y agua con gas para quien la pide. Trabajamos Insalus en todos sus formatos, junto a San Pellegrino y Perrier, y completamos con gaseosa y sifón para el tinto de verano.",
+      "introImg": {
+        "src": "/assets/images/stock/agua-vaso-1.webp",
+        "alt": "Agua sirviéndose en una copa con salpicadura"
+      },
+      "listTitle": "Catálogo de aguas",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Agua",
+          "eus": "Ura",
+          "open": true,
+          "blocks": [
+            {
+              "type": "h4",
+              "es": "Retornable",
+              "eus": "Bueltatzekoa"
+            },
+            {
+              "type": "list",
+              "items": [
+                "INSALUS 500 GAS ROSCA",
+                "INSALUS 500 NAT ROSCA",
+                "INSALUS LT GAS ROSCA",
+                "INSALUS LT NATURAL"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "No retornable",
+              "eus": "Botatzekoa kristala"
+            },
+            {
+              "type": "list",
+              "items": [
+                "INSALUS 250 GAS NR",
+                "SAN PELLEGRINO 500 GAS NR",
+                "PERRIER 500PET PACK6 GAS",
+                "INSALUS 750 GAS NR",
+                "INSALUS 330 PET",
+                "INSALUS 500 PET",
+                "INSALUS 500 PET PACK6",
+                "INSALUS 1000 PET pack6",
+                "INSALUS 1000 PET",
+                "INSALUS 1500 PET PACK6",
+                "INSALUS 1500 PET 12"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Gaseosa",
+          "eus": "Gaseosa-ura",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "GASEOSA CASERA LITRO PET",
+                "GASEOSA CASERA 500 RETORNABLE",
+                "GASEOSA CASERA 500 PET",
+                "PITUSA 1000 PET",
+                "PITUSA LIMON 1000 PET"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sifón",
+          "eus": "Sifoia",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "SIFON RETORNABLE",
+                "SIFON GEISER 1500 PET"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Otra marca de agua para tu carta? ¿Un formato especial para un evento? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/categorias/aguas.webp",
+        "alt": "Agua cristalina vertiéndose sobre un vaso"
+      },
+      "related": [
+        "refrescos",
+        "zumos-jarabes",
+        "leche"
+      ],
+      "seo": {
+        "title": "Aguas Minerales Insalus para Hostelería en Navarra | Manuel Taberna Edariak",
+        "desc": "Distribución de aguas para bares y restaurantes en Bera, Navarra: Insalus con y sin gas, San Pellegrino, Perrier, gaseosas y sifones. Reparto semanal en Bortziriak, Malerreka y Baztán.",
+        "keywords": "agua mineral hostelería Navarra, distribuidor Insalus Bera, agua con gas bares, gaseosa La Casera mayorista, sifón hostelería",
+        "ogTitle": "Aguas para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Insalus, San Pellegrino, Perrier, gaseosas y sifones. Reparto semanal a bares y restaurantes.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/aguas.webp"
+      }
+    },
+    {
+      "slug": "cristaleria",
+      "h1": "Cristalería",
+      "eus": "Edalontziak",
+      "heroLead": "Del vaso de txikito al de sidra, pasando por el plástico de las fiestas: la cristalería y los complementos que tu barra gasta a diario, en el mismo pedido que la bebida.",
+      "introH2": "El vaso justo para cada bebida",
+      "introLead": "Cada bebida pide su vaso: el txikito, la pinta, la sidra. Y cuando llega la fiesta o la terraza se llena, el plástico salva la noche. Tenemos vasos de cristal y de plástico en packs pensados para hostelería, más palillos y pajitas para rematar el servicio.",
+      "introImg": {
+        "src": "/assets/images/stock/cristaleria-copas-1.webp",
+        "alt": "Filas de copas de cristal"
+      },
+      "listTitle": "Catálogo de cristalería",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Vasos",
+          "eus": "Edalontziak",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "VASO LICORCITO*12",
+                "VASO TXIKITO PACK 4",
+                "VASO PINTA PACK4",
+                "VASO SIDRA PACK 4",
+                "TXUPITO PLASTICO PACK20",
+                "VASO PET 300 PACK50",
+                "VASO 550 PET PACK50",
+                "VASO PLASTICO LITRONA PACK25",
+                "VASO PLASTICO SIDRA PACK25"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Otros",
+          "eus": "Besteak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "PALILLO ENVUELTO (1000)",
+                "PAJITA PLASTICO FUELLE*50"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Una copa concreta para tu carta de vinos? ¿Reponer la cristalería de todo el local? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/stock/cava-brindis-1.webp",
+        "alt": "Dos copas de flauta sobre fondo claro de estudio"
+      },
+      "related": [
+        "cervezas",
+        "vinos",
+        "cavas"
+      ],
+      "seo": {
+        "title": "Cristalería para Hostelería en Navarra — Vasos y Complementos | Manuel Taberna Edariak",
+        "desc": "Distribución de cristalería para bares en Bera, Navarra: vasos de txikito, pinta y sidra, vasos de plástico, palillos y pajitas. Reparto semanal en Bortziriak, Malerreka y Baztán.",
+        "keywords": "cristalería hostelería Navarra, vasos sidra txikito bares, distribuidor cristalería Bera, vasos plástico hostelería, complementos barra",
+        "ogTitle": "Cristalería para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Vasos de txikito, pinta y sidra, vasos de plástico y complementos de barra. Reparto semanal a bares y restaurantes.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/cristaleria.webp"
+      }
+    },
+    {
+      "slug": "aceite",
+      "h1": "Aceite",
+      "eus": "Olioa",
+      "heroLead": "Aceite de oliva, virgen y girasol, con los vinagres, la sal y la mayonesa que necesita tu cocina: los básicos del día a día, en el mismo reparto que la bebida.",
+      "introH2": "Los básicos de tu cocina, resueltos",
+      "introLead": "Urzante para el día a día, Bonarbe virgen para la ensalada y girasol para la freidora. Y para aliñar, vinagre de sidra Zapiain, vinagre de vino blanco, sal Easo y mayonesa en formato hostelería. Una sola llamada y tu despensa queda cubierta.",
+      "introImg": {
+        "src": "/assets/images/stock/aceite-oliva-2.webp",
+        "alt": "Aceitera de cristal con aceite de oliva dorado"
+      },
+      "listTitle": "Catálogo de aceite y condimentos",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Aceites",
+          "eus": "Olioak",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "ELOSOL GIRASOL LT"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Alto oleico",
+              "eus": "Alto oleico olioa"
+            },
+            {
+              "type": "list",
+              "items": [
+                "URZANTE ALTO OLEICO 5L"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Aceite de oliva",
+              "eus": "Oliba olioa"
+            },
+            {
+              "type": "list",
+              "items": [
+                "URZANTE INTENSO LT",
+                "URZANTE SUAVE LT"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Aceite virgen",
+              "eus": "Birgen olioa"
+            },
+            {
+              "type": "list",
+              "items": [
+                "BONARBE VIRGEN LT PET",
+                "ACEITE VELASCO VIRGEN 500CL",
+                "BONARBE 250CL"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vinagre",
+          "eus": "Ozpina",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "ZAPIAIN SAGARDO OZPINA",
+                "URZANTE ARDO OZPIN XURIA",
+                "BONARBE OZPINA 250CL",
+                "SANDUA 5 LT OZPIN XURIA"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sal",
+          "eus": "Gatza",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "SAL EASO 25 K. URDINA",
+                "SAL EASO SECA KILO",
+                "SAL MARINA SECA KILO"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Mayonesa",
+          "eus": "Mahonesa",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "URZANTE MAYONESA 3.600"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Un aceite concreto para tu cocina? ¿Un formato más grande para la freidora? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/stock/aceite-oliva-1.webp",
+        "alt": "Botella de aceite de oliva con cuenco"
+      },
+      "related": [
+        "conservas",
+        "vinos",
+        "cristaleria"
+      ],
+      "seo": {
+        "title": "Aceite de Oliva para Hostelería en Navarra — Urzante y Bonarbe | Manuel Taberna Edariak",
+        "desc": "Distribución de aceite para restaurantes en Bera, Navarra: oliva Urzante, virgen Bonarbe, girasol, vinagres, sal y mayonesa. Reparto semanal en Bortziriak, Malerreka y Baztán.",
+        "keywords": "aceite oliva hostelería Navarra, distribuidor aceite Bera, aceite virgen restaurantes, vinagre sidra Zapiain, sal mayonesa mayorista",
+        "ogTitle": "Aceite para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Aceite de oliva, virgen y girasol, vinagres, sal y mayonesa para tu cocina. Reparto semanal a bares y restaurantes.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/aceite.webp"
+      }
+    },
+    {
+      "slug": "conservas",
+      "h1": "Conservas",
+      "eus": "Kontserbak",
+      "heroLead": "Aceitunas rellenas de anchoa, banderillas, espárragos y atún: la base de los pintxos y raciones que salen de tu barra, con reparto semanal a tu local.",
+      "introH2": "Lo que tu barra necesita para el pintxo",
+      "introLead": "La aceituna del vermut, la banderilla de la tarde, el espárrago de la ensalada y el atún del bocadillo. Trabajamos conservas de marcas de confianza como Serpis y Sarasa, en formatos de hostelería que rinden en barra y en cocina.",
+      "introImg": {
+        "src": "/assets/images/stock/conservas-latas-1.webp",
+        "alt": "Tarros de conservas y aceite en un expositor"
+      },
+      "listTitle": "Catálogo de conservas",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Aceitunas",
+          "eus": "Olibak",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "SERPIS 200 ANCHOA",
+                "SERPIS 350 ANCHOA",
+                "BANDERILLA SARASA K. (30)",
+                "ACEITUNA EXPLANADA 5 KILO",
+                "SARASA 3K. SAB. ANTXOA"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Otros",
+          "eus": "Besteak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "ESPARRAGO 1Kg. 25-34 CELORRIO",
+                "ATUN CL ACEIT. VEGETAL GERCOR 1/400",
+                "PIMIENTO RELLENO BACALAO"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Una conserva concreta para tus pintxos? ¿Un formato especial para tu cocina? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/stock/pintxos-bar-1.webp",
+        "alt": "Pintxos de jamón en la barra de un bar"
+      },
+      "related": [
+        "aceite",
+        "aperitivos",
+        "vinos"
+      ],
+      "seo": {
+        "title": "Conservas para Hostelería en Navarra — Aceitunas, Anchoas y Espárragos | Manuel Taberna Edariak",
+        "desc": "Distribución de conservas para bares en Bera, Navarra: aceitunas rellenas de anchoa, banderillas, espárragos, atún y pimientos rellenos. Reparto semanal en Bortziriak, Malerreka y Baztán.",
+        "keywords": "conservas hostelería Navarra, aceitunas anchoa bares, distribuidor conservas Bera, banderillas espárragos mayorista, conservas pintxos",
+        "ogTitle": "Conservas para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Aceitunas, banderillas, espárragos, atún y pimientos rellenos para tu barra. Reparto semanal a bares y restaurantes.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/conservas.webp"
+      }
+    },
+    {
+      "slug": "zumos-jarabes",
+      "h1": "Zumos · Jarabes",
+      "eus": "Zukuak - Jarabeak",
+      "heroLead": "Del botellín de piña del almuerzo a la granadina del combinado: zumos Pago y Vida en todos los sabores y los jarabes que tu coctelera pide, con reparto semanal a tu local.",
+      "introH2": "Un sabor para cada cliente",
+      "introLead": "Piña, melocotón, naranja, tomate, mango… trabajamos la gama completa de zumos Pago en botellín, PET y litro, junto a los zumos Vida y los jarabes de siempre: lima, granadina, menta y Pulco. Lo que tu barra necesita para no decir nunca que no.",
+      "introImg": {
+        "src": "/assets/images/stock/zumo-frutas-1.webp",
+        "alt": "Zumo de naranja sirviéndose en un vaso"
+      },
+      "listTitle": "Catálogo de zumos y jarabes",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Zumos Pago",
+          "eus": "Pago zukuak",
+          "open": true,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "PAGO PIÑA 200NR",
+                "PAGO MELOKOTOI 200NR",
+                "PAGO LARANJA 200NR",
+                "PAGO ACE 200NR",
+                "PAGO UDAREA 200NR",
+                "PAGO PLATANO 200NR",
+                "PAGO TOMATE 200NR",
+                "PAGO FRESA 200NR",
+                "PAGO MANGO 200NR",
+                "PAGO SAGARRA 200NR",
+                "PAGO POMELO 200NR",
+                "PAGO LIMA-LIMON 200NR",
+                "PAGO PIÑA 330PET",
+                "PAGO LARANJA 330PET",
+                "PAGO ACE 330PET",
+                "PAGO PIÑA LITRO NR",
+                "PAGO LARANJA LITRO NR",
+                "PAGO ACE LITRO NR",
+                "PAGO MANZANA LITRO NR",
+                "PAGO ARANDANO LITRO NR",
+                "PAGO TROPIKAL 750NR",
+                "PAGO MANGO 750NR"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Zumos Vida",
+          "eus": "Vida zukuak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "ZUMO PIÑA VIDA 200 NR",
+                "ZUMO VIDA MELOCOTON 200 NR",
+                "ZUMO VIDA NARANJA 200 NR",
+                "ZUMO PIÑA VIDA LITRO",
+                "ZUMO VIDA MELOCOTON LITRO",
+                "ZUMO VIDA NARANJA LITRO"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Jarabes",
+          "eus": "Jarabeak",
+          "open": false,
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "LIMA ROSE,S 70cl",
+                "PULCO LIMOIA",
+                "MENTA SANZ Lt",
+                "GRANADINA Lt"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Un sabor que no aparece? ¿Un jarabe concreto para tus combinados? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/categorias/zumos-jarabes.webp",
+        "alt": "Vasos de zumo de naranja y de menta con hojas de hierbabuena"
+      },
+      "related": [
+        "refrescos",
+        "aguas",
+        "cafes"
+      ],
+      "seo": {
+        "title": "Zumos Pago y Jarabes para Hostelería en Navarra | Manuel Taberna Edariak",
+        "desc": "Distribución de zumos para bares en Bera, Navarra: Pago y Vida en todos los sabores y formatos, lima, granadina y jarabes para combinados. Reparto semanal en Bortziriak, Malerreka y Baztán.",
+        "keywords": "zumos Pago hostelería Navarra, distribuidor zumos Bera, jarabes granadina bares, zumo botellín mayorista, lima menta combinados",
+        "ogTitle": "Zumos y Jarabes para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Zumos Pago y Vida en todos los sabores, lima, granadina y jarabes. Reparto semanal a bares y restaurantes.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/zumos-jarabes.webp"
+      }
+    },
+    {
+      "slug": "miniaturas",
+      "h1": "Miniaturas",
+      "eus": "Miniaturak",
+      "heroLead": "Botellitas de pacharán, brandy, whisky o crema para bodas, comuniones y eventos: el detalle que tus clientes se llevan a casa, servido desde Bera a toda la comarca.",
+      "introH2": "El detalle que remata la celebración",
+      "introLead": "El pacharán de Zoco o Etxeko para la sobremesa de una boda, el Baileys para los cafés de la comunión, el J&B para el recuerdo de los invitados. Miniaturas de las marcas de siempre, listas para restaurantes, sociedades y caterings de la zona.",
+      "introImg": {
+        "src": "/assets/images/stock/licores-botellas-1.webp",
+        "alt": "Estantería de bar repleta de botellas de licor"
+      },
+      "listTitle": "Catálogo de miniaturas",
+      "listLead": "Estas son nuestras referencias habituales. Si buscas algo que no aparece, llámanos: lo conseguimos.",
+      "groups": [
+        {
+          "title": "Miniaturas",
+          "eus": "Miniaturak",
+          "open": true,
+          "blocks": [
+            {
+              "type": "h4",
+              "es": "Anís",
+              "eus": "Anisa"
+            },
+            {
+              "type": "list",
+              "items": [
+                "MINIATURAS CADENAS"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Brandy",
+              "eus": "Brandiak"
+            },
+            {
+              "type": "list",
+              "items": [
+                "MINIATURAS DE SOBERANO"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Pacharán",
+              "eus": "Patxarana"
+            },
+            {
+              "type": "list",
+              "items": [
+                "MINIATURAS DE ZOCO",
+                "MINIATURAS DE ETXEKO"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Armañac",
+              "eus": "Armañak"
+            },
+            {
+              "type": "list",
+              "items": [
+                "MINIATURAS ARMAGNAC DELORD VSOP"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Whisky",
+              "eus": ""
+            },
+            {
+              "type": "list",
+              "items": [
+                "MINIATURAS J&B"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Ron",
+              "eus": ""
+            },
+            {
+              "type": "list",
+              "items": [
+                "MINIATURA HAVANA AÑEJO"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Ginebra",
+              "eus": ""
+            },
+            {
+              "type": "list",
+              "items": [
+                "MINIATURAS DE GORDON´S",
+                "MINIATURAS DE BEEFEATER"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Crema",
+              "eus": "Krema"
+            },
+            {
+              "type": "list",
+              "items": [
+                "MINIATURAS BAILEYS"
+              ]
+            },
+            {
+              "type": "h4",
+              "es": "Hierbas",
+              "eus": "Belarra"
+            },
+            {
+              "type": "list",
+              "items": [
+                "MINIATURA RUAVIEJA BELARRA"
+              ]
+            }
+          ]
+        }
+      ],
+      "ctaEyebrow": "¿Buscas algo concreto?",
+      "ctaH2": "Si no está en la lista, lo conseguimos",
+      "ctaLead": "¿Una miniatura de otra marca? ¿Cantidades grandes para una boda? Dínoslo y lo buscamos. Llevamos desde 1949 consiguiendo lo que la hostelería de la zona necesita.",
+      "ctaImg": {
+        "src": "/assets/images/categorias/miniaturas.webp",
+        "alt": "Botellas miniatura de licores de distintas marcas"
+      },
+      "related": [
+        "licores",
+        "whiskies",
+        "cavas"
+      ],
+      "seo": {
+        "title": "Miniaturas de Licores para Hostelería en Navarra | Manuel Taberna Edariak",
+        "desc": "Distribución de miniaturas de licores en Bera, Navarra: botellitas de pacharán Zoco y Etxeko, Soberano, J&B, Baileys y más para bodas, eventos y detalles. Reparto en Bortziriak, Malerreka y Baztán.",
+        "keywords": "miniaturas licores Navarra, botellitas pacharán bodas, miniaturas Zoco Etxeko, distribuidor miniaturas Bera, detalles eventos hostelería",
+        "ogTitle": "Miniaturas para Hostelería en Navarra | Manuel Taberna Edariak",
+        "ogDesc": "Miniaturas de pacharán, brandy, whisky, ginebra y cremas para eventos y detalles. Reparto semanal en la comarca.",
+        "ogImage": "https://tabernaedariak.eus/assets/images/categorias/miniaturas.webp"
+      }
+    }
+  ]
+}

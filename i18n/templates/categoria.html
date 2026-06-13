@@ -1,0 +1,87 @@
+    <section class="page-hero">
+      <div class="hero-media" aria-hidden="true">
+{{heroMedia}}
+      </div>
+      <div class="hero-veil" aria-hidden="true"></div>
+      <div class="container" data-hero-stagger>
+        <nav class="breadcrumbs" aria-label="{{common.breadcrumbsLabel}}">
+          <a href="/{{lang}}/">{{nav.inicio}}</a><span class="sep" aria-hidden="true">/</span>
+          <a href="/{{lang}}/catalogo/">{{nav.catalogo}}</a><span class="sep" aria-hidden="true">/</span>
+          <span aria-current="page">{{catTitle}}</span>
+        </nav>
+        <h1>{{catTitle}} <span class="basque-note" style="color: var(--yellow); display:block; font-size: var(--text-lg);">{{catEus}}</span></h1>
+        <p class="lead">{{heroLead}}</p>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="split">
+          <div class="split-body">
+            <span class="eyebrow" data-reveal><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{catCommon.selection}}</span>
+            <h2 data-reveal>{{introH2}}</h2>
+            <p class="lead" data-reveal>{{introLead}}</p>
+            <div data-reveal>
+              <a class="btn" href="/{{lang}}/contacto/">
+                <span>{{catCommon.pideTarifa}}</span>
+                <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="split-media" data-reveal>
+            <img src="{{introImg}}" alt="{{introImgAlt}}" loading="lazy" width="900" height="720">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--paper">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{catCommon.references}}</span>
+          <h2>{{catCommon.catalogoDe}} {{catTitleLower}}</h2>
+          <p class="lead">{{catCommon.listLead}}</p>
+        </div>
+
+        <div class="product-block">
+{{productGroups}}
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="split">
+          <div class="split-media" data-reveal>
+            <img src="{{ctaImg}}" alt="{{ctaImgAlt}}" loading="lazy" width="900" height="720">
+          </div>
+          <div class="split-body">
+            <span class="eyebrow" data-reveal><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{catCommon.askEyebrow}}</span>
+            <h2 data-reveal>{{ctaH2}}</h2>
+            <p class="lead" data-reveal>{{ctaLead}}</p>
+            <div class="hero-ctas" data-reveal>
+              <a class="btn" href="tel:{{tel1}}"><span>{{tel1Display}}</span></a>
+              <a class="btn btn--ghost" href="mailto:{{email}}"><span>{{common.escribenos}}</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--paper section--tight">
+      <div class="container">
+        <div class="section-head section-head--row" data-reveal>
+          <div>
+            <span class="eyebrow"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{catCommon.keepExploring}}</span>
+            <h2>{{catCommon.otherFamilies}}</h2>
+          </div>
+          <a class="btn btn--ghost" href="/{{lang}}/catalogo/">
+            <span>{{common.todoCatalogo}}</span>
+            <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+        <div class="grid grid--3">
+{{relatedCards}}
+        </div>
+      </div>
+    </section>
