@@ -1,0 +1,251 @@
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-media" aria-hidden="true">
+        <video autoplay muted loop playsinline preload="metadata" poster="/assets/images/categorias/vinos.webp">
+          <source src="/assets/videos/brindis.web.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="hero-veil" aria-hidden="true"></div>
+      <div class="hero-canvas-wrap hero-canvas" data-bubbles aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content" data-hero-stagger>
+          <span class="eyebrow eyebrow--light">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            {{home.heroEyebrow}}
+          </span>
+          <h1>{{home.heroTitleA}}<em>{{home.heroTitleEm}}</em>{{home.heroTitleB}}</h1>
+          <p class="lead">{{home.heroLead}}</p>
+          <div class="hero-ctas">
+            <a class="btn btn--yellow" href="tel:{{tel1}}">
+              <span>{{home.heroCtaCall}}</span>
+            </a>
+            <a class="btn btn--light-ghost" href="/{{lang}}/catalogo/">
+              <span>{{common.verCatalogo}}</span>
+              <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+          <div class="hero-meta">
+            <div><strong><span data-count="75" data-count-suffix="+">75+</span></strong> {{home.metaYears}}</div>
+            <div><strong><span data-count="18">18</span></strong> {{home.metaFamilies}}</div>
+            <div><strong>{{home.metaWeekly}}</strong> {{home.metaWeeklyText}}</div>
+            <div><strong>3</strong> {{home.metaRegions}}</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-hint" aria-hidden="true">
+        <span>{{common.descubre}}</span>
+        <svg width="14" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v16m0 0-6-6m6 6 6-6"/></svg>
+      </div>
+    </section>
+
+    <!-- ============ MARCAS OFICIALES ============ -->
+    <section class="brand-strip" aria-label="{{home.brandsTitle}}">
+      <div class="container u-center" style="margin-bottom: var(--s3);">
+        <p class="eyebrow"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{home.brandsTitle}}</p>
+        <p class="basque-note">{{home.brandsBasque}}</p>
+      </div>
+      <div class="marquee" aria-hidden="false">
+        <div class="marquee-track">
+          <img src="/assets/images/marcas/heineken.webp" alt="Heineken" loading="lazy" width="160" height="56">
+          <img src="/assets/images/marcas/schweppes.webp" alt="Schweppes" loading="lazy" width="160" height="56">
+          <img src="/assets/images/marcas/insalus.webp" alt="Insalus" loading="lazy" width="160" height="56">
+          <img src="/assets/images/marcas/lacturale.webp" alt="Lacturale" loading="lazy" width="160" height="56">
+          <img src="/assets/images/marcas/zapiain.webp" alt="Zapiain" loading="lazy" width="160" height="56">
+          <img src="/assets/images/marcas/codorniu.webp" alt="Codorníu" loading="lazy" width="160" height="56">
+          <img src="/assets/images/marcas/pago.webp" alt="Pago" loading="lazy" width="160" height="56">
+          <img src="/assets/images/marcas/ur-daira.webp" alt="Ur Daira" loading="lazy" width="160" height="56">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CATÁLOGO ============ -->
+    <section class="section" id="catalogo">
+      <div class="container">
+        <div class="section-head section-head--row" data-reveal>
+          <div>
+            <span class="eyebrow"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{home.catEyebrow}}</span>
+            <h2>{{home.catTitle}}</h2>
+          </div>
+          <a class="btn btn--ghost" href="/{{lang}}/catalogo/">
+            <span>{{common.explorarTodo}}</span>
+            <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <div class="grid grid--3">
+{{catCards}}
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NOSOTROS ============ -->
+    <section class="section section--paper">
+      <div class="container">
+        <div class="split">
+          <div class="split-media" data-reveal>
+            <img src="/assets/images/stock/bodega-barricas-1.webp" alt="{{home.aboutTitle}}" loading="lazy" width="900" height="720">
+            <svg class="badge-spin" data-spin viewBox="0 0 120 120" aria-hidden="true">
+              <defs><path id="circ" d="M 60,60 m -44,0 a 44,44 0 1,1 88,0 a 44,44 0 1,1 -88,0"/></defs>
+              <circle cx="60" cy="60" r="58" fill="#00326D"/>
+              <circle cx="60" cy="60" r="30" fill="#F9EA53"/>
+              <text fill="#FFFFFF" font-size="13.5" font-weight="600" letter-spacing="3.5" font-family="Archivo, sans-serif">
+                <textPath href="#circ">· BERA · NAVARRA · 1949 ·</textPath>
+              </text>
+              <text x="60" y="66" text-anchor="middle" fill="#00326D" font-size="17" font-weight="700" font-family="Fraunces, serif">1949</text>
+            </svg>
+          </div>
+          <div class="split-body">
+            <span class="eyebrow" data-reveal><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{home.aboutEyebrow}}</span>
+            <h2 data-reveal>{{home.aboutTitle}}</h2>
+            <p class="lead" data-reveal>{{home.aboutLead}}</p>
+            <ul class="checklist" data-reveal>
+              <li>
+                <span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>
+                <span>{{home.aboutLi1}}</span>
+              </li>
+              <li>
+                <span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>
+                <span>{{home.aboutLi2}}</span>
+              </li>
+              <li>
+                <span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>
+                <span>{{home.aboutLi3}}</span>
+              </li>
+            </ul>
+            <div data-reveal>
+              <a class="btn" href="/{{lang}}/empresa/">
+                <span>{{home.aboutCta}}</span>
+                <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICIO ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head section-head--center" data-reveal>
+          <span class="eyebrow"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{home.serviceEyebrow}}</span>
+          <h2>{{home.serviceTitle}}</h2>
+          <p class="lead">{{home.serviceLead}}</p>
+        </div>
+        <div class="grid grid--3">
+          <article class="feature-card" data-reveal>
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 17h-2v-6l2-5h9l4 5h3a1 1 0 0 1 1 1v5h-2"/><circle cx="7.5" cy="17.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/><path d="M10 17h5"/></svg>
+            </span>
+            <h3>{{home.service1Title}}</h3>
+            <p>{{home.service1Text}}</p>
+          </article>
+          <article class="feature-card" data-reveal>
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg>
+            </span>
+            <h3>{{home.service2Title}}</h3>
+            <p>{{home.service2Text}}</p>
+          </article>
+          <article class="feature-card" data-reveal>
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21h18M5 21V7l7-4 7 4v14"/><path d="M9 9h1m4 0h1M9 13h1m4 0h1M10 21v-4h4v4"/></svg>
+            </span>
+            <h3>{{home.service3Title}}</h3>
+            <p>{{home.service3Text}}</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DATOS ============ -->
+    <section class="section section--tight section--navy">
+      <div class="container">
+        <div class="stats-band">
+          <div class="stat" data-reveal><strong data-count="1949">1949</strong><span>{{home.statsFound}}</span></div>
+          <div class="stat" data-reveal><strong data-count="18">18</strong><span>{{home.statsFamilies}}</span></div>
+          <div class="stat" data-reveal><strong data-count="8">8</strong><span>{{home.statsBrands}}</span></div>
+          <div class="stat" data-reveal><strong data-count="3">3</strong><span>{{home.statsRegions}}</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ZONA DE REPARTO ============ -->
+    <section class="section section--paper">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{home.zoneEyebrow}}</span>
+          <h2>{{home.zoneTitle}}</h2>
+          <p class="lead">{{home.zoneLead}}</p>
+        </div>
+        <div class="zone-list">
+          <article class="zone-card" data-reveal>
+            <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg> {{home.zone1Title}}</h3>
+            <p>{{home.zone1Text}}</p>
+          </article>
+          <article class="zone-card" data-reveal>
+            <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg> {{home.zone2Title}}</h3>
+            <p>{{home.zone2Text}}</p>
+          </article>
+          <article class="zone-card" data-reveal>
+            <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg> {{home.zone3Title}}</h3>
+            <p>{{home.zone3Text}}</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{home.faqEyebrow}}</span>
+          <h2>{{home.faqTitle}}</h2>
+        </div>
+        <div class="product-block" style="max-width: 52rem;">
+          <details class="product-group" data-reveal>
+            <summary>{{home.faq1Q}} <span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg></span></summary>
+            <p style="padding: 0 var(--s4) var(--s4); color: var(--ink-soft); font-size: var(--text-sm);">{{home.faq1A}}</p>
+          </details>
+          <details class="product-group" data-reveal>
+            <summary>{{home.faq2Q}} <span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg></span></summary>
+            <p style="padding: 0 var(--s4) var(--s4); color: var(--ink-soft); font-size: var(--text-sm);">{{home.faq2A}}</p>
+          </details>
+          <details class="product-group" data-reveal>
+            <summary>{{home.faq3Q}} <span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg></span></summary>
+            <p style="padding: 0 var(--s4) var(--s4); color: var(--ink-soft); font-size: var(--text-sm);">{{home.faq3A}}</p>
+          </details>
+          <details class="product-group" data-reveal>
+            <summary>{{home.faq4Q}} <span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg></span></summary>
+            <p style="padding: 0 var(--s4) var(--s4); color: var(--ink-soft); font-size: var(--text-sm);">{{home.faq4A}}</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA FINAL ============ -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-banner" data-reveal>
+          <svg class="cta-dots" viewBox="0 0 300 200" aria-hidden="true">
+            <circle cx="50" cy="50" r="28" fill="#F9EA53" opacity="0.9"/>
+            <circle cx="150" cy="50" r="28" fill="#FFFFFF" opacity="0.25"/>
+            <circle cx="250" cy="50" r="28" fill="#F9EA53" opacity="0.5"/>
+            <circle cx="50" cy="150" r="28" fill="#FFFFFF" opacity="0.2"/>
+            <circle cx="150" cy="150" r="28" fill="#F9EA53" opacity="0.7"/>
+            <circle cx="250" cy="150" r="28" fill="#FFFFFF" opacity="0.3"/>
+          </svg>
+          <span class="eyebrow eyebrow--light"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> {{home.ctaEyebrow}}</span>
+          <h2>{{home.ctaTitle}}</h2>
+          <p class="lead">{{home.ctaLead}}</p>
+          <div class="hero-ctas">
+            <a class="btn btn--yellow" href="tel:{{tel1}}"><span>{{tel1Display}}</span></a>
+            <a class="btn btn--light-ghost" href="/{{lang}}/contacto/">
+              <span>{{common.paginaContacto}}</span>
+              <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>

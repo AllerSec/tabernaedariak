@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#022350">
+
+  <title>{{seoTitle}}</title>
+  <meta name="description" content="{{seoDesc}}">
+  <meta name="keywords" content="{{seoKeywords}}">
+  <meta name="author" content="Manuel Taberna S.L.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{canonical}}">
+
+  <link rel="alternate" hreflang="eu" href="{{altEu}}">
+  <link rel="alternate" hreflang="es" href="{{altEs}}">
+  <link rel="alternate" hreflang="en" href="{{altEn}}">
+  <link rel="alternate" hreflang="fr" href="{{altFr}}">
+  <link rel="alternate" hreflang="x-default" href="{{altEu}}">
+
+  <meta name="geo.region" content="ES-NA">
+  <meta name="geo.placename" content="Bera, Navarra">
+  <meta name="geo.position" content="43.2797;-1.6839">
+  <meta name="ICBM" content="43.2797, -1.6839">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{localeOG}}">
+  <meta property="og:site_name" content="Manuel Taberna Edariak">
+  <meta property="og:title" content="{{ogTitle}}">
+  <meta property="og:description" content="{{ogDesc}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:image" content="{{ogImage}}">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{twTitle}}">
+  <meta name="twitter:description" content="{{twDesc}}">
+  <meta name="twitter:image" content="{{ogImage}}">
+
+  <meta name="mt-base" content="/{{lang}}/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="preload" href="/assets/fonts/fraunces-400-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/archivo-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/fonts.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+{{schema}}
+</head>
+<body>
+{{loader}}
+  <a class="skip-link" href="#contenido">{{nav.skip}}</a>
+
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-group">
+        <a href="tel:{{tel1}}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          {{tel1Display}}
+        </a>
+        <a href="tel:{{tel2}}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+          {{tel2Display}}
+        </a>
+      </div>
+      <div class="topbar-group topbar-group--right">
+        <a href="mailto:{{email}}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+          {{email}}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/{{lang}}/" aria-label="{{nav.homeAria}}">
+        <svg class="brand-dots" width="46" height="34" viewBox="0 0 46 34" aria-hidden="true">
+          <circle cx="7" cy="8" r="6" fill="#00326D"/>
+          <circle cx="23" cy="8" r="6" fill="#00326D"/>
+          <circle cx="39" cy="8" r="6" fill="#00326D"/>
+          <circle cx="7" cy="26" r="6" fill="#F9EA53"/>
+          <circle cx="23" cy="26" r="6" fill="#F9EA53"/>
+          <circle cx="39" cy="26" r="6" fill="#F9EA53"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name">Edariak</span>
+          <span class="brand-sub">Manuel Taberna S.L.</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-principal" aria-label="{{nav.menuLabel}}">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="nav-principal" aria-label="{{nav.navLabel}}">
+        <a href="/{{lang}}/"{{currentInicio}}>{{nav.inicio}}</a>
+        <a href="/{{lang}}/catalogo/"{{currentCatalogo}}>{{nav.catalogo}}</a>
+        <a href="/{{lang}}/empresa/"{{currentEmpresa}}>{{nav.empresa}}</a>
+        <a href="/{{lang}}/contacto/"{{currentContacto}}>{{nav.contacto}}</a>
+        <a class="btn btn--yellow" href="tel:{{tel1}}">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>{{nav.pedido}}</span>
+        </a>
+        <span class="nav-langs" role="group" aria-label="{{nav.langLabel}}">
+          <svg class="nav-langs-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+          <span class="nav-langs-segments">{{langSwitcher}}</span>
+        </span>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+{{main}}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="/{{lang}}/" aria-label="{{nav.homeAria}}" style="color:#fff;">
+            <svg class="brand-dots" width="46" height="34" viewBox="0 0 46 34" aria-hidden="true">
+              <circle cx="7" cy="8" r="6" fill="#FFFFFF"/>
+              <circle cx="23" cy="8" r="6" fill="#FFFFFF"/>
+              <circle cx="39" cy="8" r="6" fill="#FFFFFF"/>
+              <circle cx="7" cy="26" r="6" fill="#F9EA53"/>
+              <circle cx="23" cy="26" r="6" fill="#F9EA53"/>
+              <circle cx="39" cy="26" r="6" fill="#F9EA53"/>
+            </svg>
+            <span class="brand-text">
+              <span class="brand-name" style="color:#fff;">Edariak</span>
+              <span class="brand-sub" style="color:rgba(255,255,255,0.6);">Manuel Taberna S.L.</span>
+            </span>
+          </a>
+          <p>{{footer.tagline}}</p>
+        </div>
+
+        <nav aria-label="{{footer.footerNavLabel}}">
+          <h4>{{footer.navTitle}}</h4>
+          <ul>
+            <li><a href="/{{lang}}/">{{nav.inicio}}</a></li>
+            <li><a href="/{{lang}}/catalogo/">{{nav.catalogo}}</a></li>
+            <li><a href="/{{lang}}/empresa/">{{nav.empresa}}</a></li>
+            <li><a href="/{{lang}}/contacto/">{{nav.contacto}}</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h4>{{footer.contactTitle}}</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>{{addressShort}},<br>{{postalCode}} {{locality}} ({{region}})</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span><a href="tel:{{tel1}}">{{tel1Display}}</a><br><a href="tel:{{tel2}}">{{tel2Display}}</a> ({{footer.messaging}})</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+              <span><a href="mailto:{{email}}">{{email}}</a></span>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>{{footer.scheduleTitle}}</h4>
+          <ul>
+            <li>{{footer.scheduleDays}}</li>
+            <li><strong style="color:#fff;">08:00 – 15:00</strong></li>
+            <li style="margin-top: var(--s2);">{{footer.scheduleWarehouse}}</li>
+            <li>{{footer.faxLabel}}: {{fax}}</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 {{footer.rights}}</span>
+        <div class="footer-legal-links">
+          <a href="/{{lang}}/aviso-legal/">{{footer.legalAviso}}</a>
+          <a href="/{{lang}}/politica-privacidad/">{{footer.legalPriv}}</a>
+          <a href="/{{lang}}/politica-cookies/">{{footer.legalCookies}}</a>
+        </div>
+        <span>{{footer.designedBy}} <a href="https://unaxaller.com" rel="noopener" target="_blank" class="link-line">unaxaller.com</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cookie-notice" id="cookie-notice" role="dialog" aria-label="{{cookies.title}}" aria-live="polite">
+    <p>{{cookies.text}}<a class="link-line" href="/{{lang}}/politica-cookies/">{{cookies.link}}</a>.</p>
+    <div class="cookie-actions">
+      <button class="btn" data-cookie="accepted"><span>{{cookies.accept}}</span></button>
+      <button class="btn btn--ghost" data-cookie="rejected"><span>{{cookies.reject}}</span></button>
+    </div>
+  </div>
+
+  <script src="/assets/js/vendor/gsap.min.js"></script>
+  <script src="/assets/js/vendor/ScrollTrigger.min.js"></script>
+  <script src="/assets/js/main.js" data-more="{{common.verTodo}}" data-less="{{common.verMenos}}"></script>
+</body>
+</html>

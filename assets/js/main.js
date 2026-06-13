@@ -144,7 +144,7 @@
     var originalItems = Array.prototype.slice.call(track.children);
     if (!originalItems.length) return;
 
-    track.innerHTML = '';
+    while (track.firstChild) track.removeChild(track.firstChild);
 
     function addGroup(hidden) {
       var group = document.createElement('div');
@@ -158,19 +158,68 @@
     }
 
     var firstGroup = addGroup(false);
-    var groupWidth = firstGroup.getBoundingClientRect().width;
-    if (!groupWidth) return;
-    var copies = Math.max(3, Math.ceil((mq.offsetWidth * 2) / groupWidth) + 1);
-    for (var i = 1; i < copies; i++) addGroup(true);
+    var tween = null;
+    var groupWidth = 0;
 
-    if (REDUCED) return;
-    var tween = gsap.to(track, {
-      x: -groupWidth, ease: 'none', duration: 28, repeat: -1, modifiers: {
-        x: gsap.utils.unitize(function (x) { return parseFloat(x) % groupWidth; })
+    /* La velocidad es constante (px/s) para que el ritmo no dependa del nº de grupos */
+    var SPEED = 60; // px por segundo
+
+    function rebuild() {
+      groupWidth = firstGroup.getBoundingClientRect().width;
+      if (!groupWidth) return false;
+
+      /* Eliminar grupos clonados previos y crear los necesarios para cubrir
+         SIEMPRE al menos el doble del ancho visible + un grupo de margen.
+         Así el bucle nunca deja hueco al envolver. */
+      while (track.children.length > 1) track.removeChild(track.lastChild);
+      var needed = Math.max(2, Math.ceil((mq.offsetWidth + groupWidth) / groupWidth) + 1);
+      for (var i = 1; i < needed; i++) addGroup(true);
+      return true;
+    }
+
+    function startTween() {
+      if (tween) { tween.kill(); tween = null; }
+      if (REDUCED || !groupWidth) return;
+      gsap.set(track, { x: 0 });
+      tween = gsap.to(track, {
+        x: -groupWidth,
+        ease: 'none',
+        duration: groupWidth / SPEED,
+        repeat: -1,
+        modifiers: {
+          /* Envuelve siempre dentro de [-groupWidth, 0] sin saltos */
+          x: function (x) { return (gsap.utils.wrap(-groupWidth, 0, parseFloat(x))) + 'px'; }
+        }
+      });
+    }
+
+    function setup() {
+      if (rebuild()) startTween();
+    }
+
+    /* Medir cuando las imágenes (lazy) ya tienen tamaño real, no antes */
+    var imgs = firstGroup.querySelectorAll('img');
+    var pending = 0;
+    imgs.forEach(function (img) {
+      if (!img.complete || !img.naturalWidth) {
+        pending++;
+        img.addEventListener('load', function () { if (--pending <= 0) setup(); }, { once: true });
+        img.addEventListener('error', function () { if (--pending <= 0) setup(); }, { once: true });
       }
     });
-    mq.addEventListener('mouseenter', function () { gsap.to(tween, { timeScale: 0.25, duration: 0.4 }); });
-    mq.addEventListener('mouseleave', function () { gsap.to(tween, { timeScale: 1, duration: 0.4 }); });
+    if (pending === 0) setup();
+    /* Red de seguridad: si algún 'load' no dispara, reintenta al cargar la ventana */
+    window.addEventListener('load', function () { if (!tween) setup(); }, { once: true });
+
+    /* Recalcular en resize (debounce) para que nunca se quede corto */
+    var resizeTimer = null;
+    window.addEventListener('resize', function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(setup, 200);
+    });
+
+    mq.addEventListener('mouseenter', function () { if (tween) gsap.to(tween, { timeScale: 0.25, duration: 0.4 }); });
+    mq.addEventListener('mouseleave', function () { if (tween) gsap.to(tween, { timeScale: 1, duration: 0.4 }); });
   });
 
   /* ---------- Particulas del hero ---------- */

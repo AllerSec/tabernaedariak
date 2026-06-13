@@ -2,3 +2,6 @@ __pycache__/
 *.py[cod]
 .DS_Store
 Thumbs.db
+
+# Salida temporal del generador multiidioma (preview)
+.build-check/

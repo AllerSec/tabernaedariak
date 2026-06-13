@@ -1,0 +1,22 @@
+{
+  "categorias": [
+    { "slug": "vinos", "image": "vinos.webp", "video": "vino-sirviendo.web.mp4", "eus": "Ardoak" },
+    { "slug": "cervezas", "image": "cervezas.webp", "video": "cerveza-tirando.web.mp4", "eus": "Garagardoa" },
+    { "slug": "whiskies", "image": "whiskies.webp", "video": null, "eus": "Whiskiak" },
+    { "slug": "licores", "image": "licores.webp", "video": null, "eus": "Likorrak" },
+    { "slug": "ginebra-vodka-ron-tequila", "image": "ginebra-vodka-ron-tequila.webp", "video": null, "eus": "Ginebra-Vodka-Ron-Tekila" },
+    { "slug": "anis-brandy-pacharan", "image": "anis-brandy-pacharan.webp", "video": null, "eus": "Anisa - Brandia - Patxarana" },
+    { "slug": "refrescos", "image": "refrescos.webp", "video": null, "eus": "Freskagarriak" },
+    { "slug": "cavas", "image": "cavas.webp", "video": "cava.web.mp4", "eus": "Kaba - Txanpaina" },
+    { "slug": "sidra-txakoli", "image": "sidra-txakoli.webp", "video": null, "eus": "Sagardoa - Txakolina" },
+    { "slug": "aperitivos", "image": "aperitivos.webp", "video": null, "eus": "Aperitiboak" },
+    { "slug": "cafes", "image": "cafes.webp", "video": "cafe.web.mp4", "eus": "Kafeak" },
+    { "slug": "leche", "image": "leche.webp", "video": null, "eus": "Esnea" },
+    { "slug": "aguas", "image": "aguas.webp", "video": null, "eus": "Urak" },
+    { "slug": "cristaleria", "image": "cristaleria.webp", "video": null, "eus": "Edalontziak" },
+    { "slug": "aceite", "image": "aceite.webp", "video": null, "eus": "Olioa" },
+    { "slug": "conservas", "image": "conservas.webp", "video": null, "eus": "Kontserbak" },
+    { "slug": "zumos-jarabes", "image": "zumos-jarabes.webp", "video": "zumo.web.mp4", "eus": "Zukuak - Jarabeak" },
+    { "slug": "miniaturas", "image": "miniaturas.webp", "video": null, "eus": "Miniaturak" }
+  ]
+}

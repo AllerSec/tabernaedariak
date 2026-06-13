@@ -1,0 +1,25 @@
+{
+  "tel1": "+34948631027",
+  "tel1Display": "948 631 027",
+  "tel2": "+34670598560",
+  "tel2Display": "670 598 560",
+  "email": "info@tabernaedariak.eus",
+  "fax": "948 625 211",
+  "vatID": "B31211402",
+  "legalName": "Manuel Taberna S.L.",
+  "brandName": "Edariak",
+  "domain": "https://tabernaedariak.eus",
+  "address": {
+    "street": "Bidasoa karrika, 76",
+    "streetShort": "Bidasoa karrika 76",
+    "postalCode": "31780",
+    "locality": "Bera",
+    "region": "Navarra",
+    "country": "ES"
+  },
+  "geo": { "lat": 43.2797, "lng": -1.6839 },
+  "foundingYear": "1949",
+  "brands": ["Heineken", "Schweppes", "Insalus", "Lacturale", "Zapiain", "Codorníu", "Pago", "Ur Daira"],
+  "facebook": "https://www.facebook.com/tabernaedariak",
+  "designerUrl": "https://unaxaller.com"
+}
