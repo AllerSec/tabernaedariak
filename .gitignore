@@ -5,3 +5,6 @@ Thumbs.db
 
 # Salida temporal del generador multiidioma (preview)
 .build-check/
+
+# Capturas de revisión visual (herramientas/screenshot_site.py)
+_capturas/

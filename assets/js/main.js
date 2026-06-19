@@ -57,29 +57,46 @@
     });
   }
 
-  /* ---------- Navegación móvil ---------- */
+  /* ---------- Navegación móvil ----------
+     El header lleva backdrop-filter, lo que crea un containing block y rompe
+     el `position: fixed` del drawer (quedaba confinado a la altura del header).
+     Al abrir, sacamos el nav fuera del header (lo movemos al <body>) para que
+     el drawer a pantalla completa se posicione respecto al viewport; al cerrar
+     lo devolvemos a su sitio exacto mediante un marcador. */
   var toggle = document.querySelector('.nav-toggle');
   var nav = document.querySelector('.main-nav');
   if (toggle && nav) {
+    var navHome = document.createComment('main-nav');
+    nav.parentNode.insertBefore(navHome, nav);
+
+    function openNav() {
+      document.body.appendChild(nav);
+      nav.classList.add('is-open');
+      toggle.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeNav(returnFocus) {
+      nav.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      // Devolver el nav a su posición original dentro del header.
+      if (navHome.parentNode) navHome.parentNode.insertBefore(nav, navHome);
+      if (returnFocus) toggle.focus();
+    }
+
     toggle.addEventListener('click', function () {
-      var open = nav.classList.toggle('is-open');
-      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-      document.body.style.overflow = open ? 'hidden' : '';
+      if (nav.classList.contains('is-open')) closeNav(false);
+      else openNav();
     });
     nav.addEventListener('click', function (e) {
-      if (e.target.closest('a')) {
-        nav.classList.remove('is-open');
-        toggle.setAttribute('aria-expanded', 'false');
-        document.body.style.overflow = '';
-      }
+      if (e.target.closest('a')) closeNav(false);
     });
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && nav.classList.contains('is-open')) {
-        nav.classList.remove('is-open');
-        toggle.setAttribute('aria-expanded', 'false');
-        document.body.style.overflow = '';
-        toggle.focus();
-      }
+      if (e.key === 'Escape' && nav.classList.contains('is-open')) closeNav(true);
+    });
+    // Si se pasa a escritorio con el menú abierto, restaurar estado.
+    window.matchMedia('(min-width: 861px)').addEventListener('change', function (e) {
+      if (e.matches && nav.classList.contains('is-open')) closeNav(false);
     });
   }
 
